@@ -1,0 +1,2598 @@
+[ 2018-01-03T15:45:57+08:00 ] 127.0.0.1 /hzr/index.php/HaiAdmin/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018001s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.1358s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=0 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=1 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=2 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=3 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=6 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=11 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=9 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=10 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=18 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.1314s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` INNER JOIN newstypes on news.typeid=newstypes.id  LIMIT 0,12   [ RunTime:0.0390s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hzr\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hzr\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hzr\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hzr\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hzr\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hzr\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hzr\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hzr\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.132003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.132003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.048602s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.048602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.025001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.025001s ]
+
+[ 2018-01-03T15:46:04+08:00 ] 127.0.0.1 /hzr/index.php/HaiAdmin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T15:46:05+08:00 ] 127.0.0.1 /hzr/HaiAdmin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=1 ) ORDER BY dateandtime desc LIMIT 7   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `baoming` [ RunTime:0.0816s ]
+SQL: SELECT * FROM `baoming` ORDER BY addtime desc LIMIT 7   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `baoming` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0628s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2018-01-03T15:46:09+08:00 ] 127.0.0.1 /hzr/HaiAdmin/Content/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0546s ]
+SQL: SELECT * FROM `content`  [ RunTime:0.0140s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-03T15:46:15+08:00 ] 127.0.0.1 /hzr/HaiAdmin/Content/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `content`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T15:46:17+08:00 ] 127.0.0.1 /hzr/HaiAdmin/Content/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T15:56:17+08:00 ] 127.0.0.1 /hzr/index.php/HaiAdmin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.143008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.143008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.021001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.021001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-01-03T15:56:18+08:00 ] 127.0.0.1 /hzr/HaiAdmin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=1 ) ORDER BY dateandtime desc LIMIT 7   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `baoming` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `baoming` ORDER BY addtime desc LIMIT 7   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `baoming` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T15:56:24+08:00 ] 127.0.0.1 /hzr/index.php/HaiAdmin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T15:56:25+08:00 ] 127.0.0.1 /hzr/HaiAdmin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=1 ) ORDER BY dateandtime desc LIMIT 7   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `baoming` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `baoming` ORDER BY addtime desc LIMIT 7   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `baoming` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T15:57:31+08:00 ] 127.0.0.1 /hzr/index.php/HaiAdmin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T15:57:32+08:00 ] 127.0.0.1 /hzr/HaiAdmin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=1 ) ORDER BY dateandtime desc LIMIT 7   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `baoming` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `baoming` ORDER BY addtime desc LIMIT 7   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `baoming` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-01-03T15:57:46+08:00 ] 127.0.0.1 /hzr/HaiAdmin/News/type.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=0 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=2 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=3 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=6 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=11 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=9 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=10 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=18 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T15:57:48+08:00 ] 127.0.0.1 /hzr/HaiAdmin/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=0 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=2 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=3 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=6 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=11 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=9 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=10 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=18 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` INNER JOIN newstypes on news.typeid=newstypes.id  LIMIT 0,12   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hzr\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hzr\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hzr\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hzr\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hzr\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hzr\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hzr\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hzr\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T15:57:53+08:00 ] 127.0.0.1 /hzr/HaiAdmin/News/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=0 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=1 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=2 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=3 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=6 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=11 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=9 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=10 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=18 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` INNER JOIN newstypes on news.typeid=newstypes.id  LIMIT 12,12   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hzr\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hzr\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hzr\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hzr\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hzr\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hzr\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hzr\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hzr\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T16:49:53+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T16:49:55+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=1 ) ORDER BY dateandtime desc LIMIT 7   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `baoming` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `baoming` ORDER BY addtime desc LIMIT 7   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `baoming` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T16:49:58+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T16:50:00+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=1 ) ORDER BY dateandtime desc LIMIT 7   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `baoming` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `baoming` ORDER BY addtime desc LIMIT 7   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `baoming` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-01-03T16:50:02+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/type.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=0 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=2 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=3 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=6 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=11 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=9 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=10 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=18 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T16:50:40+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/edit/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `newstypes` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=0 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=2 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=3 ) ORDER BY sort desc  [ RunTime:0.0280s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=6 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=11 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=9 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=10 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=18 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-01-03T16:50:48+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0060s ]
+SQL: SELECT `typename`,`fid` FROM `newstypes` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=0 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=1 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=2 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=3 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=6 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=11 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=9 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=10 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=18 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( typename='新闻中心' and id in(1,2,3,6,11,9,10,18) )  [ RunTime:0.0520s ]
+SQL: SELECT `fullpath` FROM `newstypes` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `newstypes` SET `typename`='新闻中心',`fid`='0',`state`='1',`sort`='100' WHERE ( id=1 ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T16:50:50+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=0 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=2 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=3 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=6 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=11 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=9 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=10 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=18 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T16:50:53+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/addtype.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=0 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=2 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=3 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=6 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=11 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=9 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=10 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=18 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: info F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\9860264a299cdcfd9cdcf939be9488fb.php 第 36 行.
+NOTIC: [8] Undefined variable: info F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\9860264a299cdcfd9cdcf939be9488fb.php 第 43 行.
+NOTIC: [8] Undefined variable: info F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\9860264a299cdcfd9cdcf939be9488fb.php 第 59 行.
+NOTIC: [8] Undefined variable: info F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\9860264a299cdcfd9cdcf939be9488fb.php 第 59 行.
+NOTIC: [8] Undefined variable: info F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\9860264a299cdcfd9cdcf939be9488fb.php 第 59 行.
+NOTIC: [8] Undefined variable: info F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\9860264a299cdcfd9cdcf939be9488fb.php 第 59 行.
+NOTIC: [8] Undefined variable: info F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\9860264a299cdcfd9cdcf939be9488fb.php 第 59 行.
+NOTIC: [8] Undefined variable: info F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\9860264a299cdcfd9cdcf939be9488fb.php 第 59 行.
+NOTIC: [8] Undefined variable: info F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\9860264a299cdcfd9cdcf939be9488fb.php 第 59 行.
+NOTIC: [8] Undefined variable: info F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\9860264a299cdcfd9cdcf939be9488fb.php 第 59 行.
+NOTIC: [8] Undefined variable: info F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\9860264a299cdcfd9cdcf939be9488fb.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T16:51:02+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/addtype.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=1 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT `fullpath` FROM `newstypes` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `newstypes` (`typename`,`fid`,`fullpath`,`state`) VALUES ('公司新闻','1','0-1','2') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-01-03T16:51:04+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=0 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=19 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=2 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=3 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=6 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=11 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=9 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=10 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=18 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-01-03T16:51:08+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/addtype.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=0 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=1 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=19 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=2 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=3 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=6 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=11 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=9 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=10 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=18 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: info F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\9860264a299cdcfd9cdcf939be9488fb.php 第 36 行.
+NOTIC: [8] Undefined variable: info F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\9860264a299cdcfd9cdcf939be9488fb.php 第 43 行.
+NOTIC: [8] Undefined variable: info F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\9860264a299cdcfd9cdcf939be9488fb.php 第 59 行.
+NOTIC: [8] Undefined variable: info F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\9860264a299cdcfd9cdcf939be9488fb.php 第 59 行.
+NOTIC: [8] Undefined variable: info F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\9860264a299cdcfd9cdcf939be9488fb.php 第 59 行.
+NOTIC: [8] Undefined variable: info F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\9860264a299cdcfd9cdcf939be9488fb.php 第 59 行.
+NOTIC: [8] Undefined variable: info F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\9860264a299cdcfd9cdcf939be9488fb.php 第 59 行.
+NOTIC: [8] Undefined variable: info F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\9860264a299cdcfd9cdcf939be9488fb.php 第 59 行.
+NOTIC: [8] Undefined variable: info F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\9860264a299cdcfd9cdcf939be9488fb.php 第 59 行.
+NOTIC: [8] Undefined variable: info F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\9860264a299cdcfd9cdcf939be9488fb.php 第 59 行.
+NOTIC: [8] Undefined variable: info F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\9860264a299cdcfd9cdcf939be9488fb.php 第 59 行.
+NOTIC: [8] Undefined variable: info F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\9860264a299cdcfd9cdcf939be9488fb.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T16:51:15+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/addtype.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=1 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=19 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( typename='行业新闻' and id in(19) )  [ RunTime:0.0010s ]
+SQL: SELECT `fullpath` FROM `newstypes` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `newstypes` (`typename`,`fid`,`fullpath`,`state`) VALUES ('行业新闻','1','0-1','2') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-01-03T16:51:17+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=0 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=19 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=20 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=2 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=3 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=6 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=11 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=9 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=10 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=18 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T16:51:40+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/edit/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `newstypes` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=0 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=19 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=20 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=2 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=3 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=6 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=11 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=9 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=10 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=18 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-01-03T16:51:47+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0050s ]
+SQL: SELECT `typename`,`fid` FROM `newstypes` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=0 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=19 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=20 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=2 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=3 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=6 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=11 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=9 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=10 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=18 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( typename='产品展示' and id in(1,19,20,2,3,6,11,9,10,18) )  [ RunTime:0.0010s ]
+SQL: SELECT `fullpath` FROM `newstypes` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `newstypes` SET `typename`='产品展示',`fid`='0',`state`='1',`sort`='99' WHERE ( id=2 ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T16:51:50+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=0 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=19 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=20 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=2 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=3 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=6 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=11 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=9 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=10 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=18 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T16:52:13+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=0 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=1 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=19 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=20 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=2 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=3 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=6 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=11 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=9 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=10 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=18 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` INNER JOIN newstypes on news.typeid=newstypes.id  LIMIT 0,12   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T16:52:18+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/selectDel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0120s ]
+SQL: SELECT `imagename` FROM `news` WHERE ( articleid in(7,5,6,8,9,10,11,12,14,15,20,19) )  [ RunTime:0.0020s ]
+SQL: DELETE FROM `news` WHERE ( articleid in(7,5,6,8,9,10,11,12,14,15,20,19) ) [ RunTime:0.0020s ]
+
+[ 2018-01-03T16:52:19+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=0 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=1 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=19 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=20 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=2 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=3 ) ORDER BY sort desc  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=6 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=11 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=9 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=10 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=18 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` INNER JOIN newstypes on news.typeid=newstypes.id  LIMIT 0,12   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-01-03T16:52:23+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/selectDel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0050s ]
+SQL: SELECT `imagename` FROM `news` WHERE ( articleid in(21,22,23,24,25,26,27,28,29,30,31,32) )  [ RunTime:0.0010s ]
+SQL: DELETE FROM `news` WHERE ( articleid in(21,22,23,24,25,26,27,28,29,30,31,32) ) [ RunTime:0.0010s ]
+
+[ 2018-01-03T16:52:24+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=0 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=19 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=20 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=2 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=3 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=6 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=11 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=9 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=10 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=18 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` INNER JOIN newstypes on news.typeid=newstypes.id  LIMIT 0,12   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-01-03T16:52:27+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/selectDel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0050s ]
+SQL: SELECT `imagename` FROM `news` WHERE ( articleid in(33,35,36,37,38,39,40,41,42,43,44,45) )  [ RunTime:0.0000s ]
+SQL: DELETE FROM `news` WHERE ( articleid in(33,35,36,37,38,39,40,41,42,43,44,45) ) [ RunTime:0.0010s ]
+
+[ 2018-01-03T16:52:28+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=0 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=19 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=20 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=2 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=3 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=6 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=11 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=9 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=10 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=18 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` INNER JOIN newstypes on news.typeid=newstypes.id  LIMIT 0,12   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T16:52:31+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/selectDel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0070s ]
+SQL: SELECT `imagename` FROM `news` WHERE ( articleid in(46,47,48,49,50,51,52,53,54,55,56,57) )  [ RunTime:0.0010s ]
+SQL: DELETE FROM `news` WHERE ( articleid in(46,47,48,49,50,51,52,53,54,55,56,57) ) [ RunTime:0.0020s ]
+
+[ 2018-01-03T16:52:32+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=0 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=1 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=19 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=20 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=2 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=3 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=6 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=11 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=9 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=10 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=18 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` INNER JOIN newstypes on news.typeid=newstypes.id  LIMIT 0,12   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T16:52:35+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/selectDel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0050s ]
+SQL: SELECT `imagename` FROM `news` WHERE ( articleid in(58,59,60,61,62,63,64,65,66,67,68,69) )  [ RunTime:0.0000s ]
+SQL: DELETE FROM `news` WHERE ( articleid in(58,59,60,61,62,63,64,65,66,67,68,69) ) [ RunTime:0.0000s ]
+
+[ 2018-01-03T16:52:36+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=0 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=1 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=19 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=20 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=2 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=3 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=6 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=11 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=9 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=10 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=18 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` INNER JOIN newstypes on news.typeid=newstypes.id  LIMIT 0,12   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T16:52:39+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/selectDel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0050s ]
+SQL: SELECT `imagename` FROM `news` WHERE ( articleid in(70,71,72,73,74,75,76,77,78,79,80,81) )  [ RunTime:0.0010s ]
+SQL: DELETE FROM `news` WHERE ( articleid in(70,71,72,73,74,75,76,77,78,79,80,81) ) [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Uploads/Uploads/5a154a0c5b8fe.jpg): No such file or directory F:\phpxiangmu\hong\Application\HaiAdmin\Controller\NewsController.class.php 第 464 行.
+NOTIC: [2] unlink(./Uploads/Uploads/5a154a0c5b8fe.jpg): No such file or directory F:\phpxiangmu\hong\Application\HaiAdmin\Controller\NewsController.class.php 第 464 行.
+NOTIC: [2] unlink(./Uploads/Uploads/5a154a0c5b8fe.jpg): No such file or directory F:\phpxiangmu\hong\Application\HaiAdmin\Controller\NewsController.class.php 第 464 行.
+NOTIC: [2] unlink(./Uploads/): Permission denied F:\phpxiangmu\hong\Application\HaiAdmin\Controller\NewsController.class.php 第 464 行.
+NOTIC: [2] unlink(./Uploads/): Permission denied F:\phpxiangmu\hong\Application\HaiAdmin\Controller\NewsController.class.php 第 464 行.
+NOTIC: [2] unlink(./Uploads/Uploads/5a163c6284cbb.jpg): No such file or directory F:\phpxiangmu\hong\Application\HaiAdmin\Controller\NewsController.class.php 第 464 行.
+
+[ 2018-01-03T16:52:40+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=0 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=19 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=20 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=2 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=3 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=6 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=11 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=9 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=10 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=18 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` INNER JOIN newstypes on news.typeid=newstypes.id  LIMIT 0,12   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T16:52:42+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/selectDel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0050s ]
+SQL: SELECT `imagename` FROM `news` WHERE ( articleid in(82,83,84,85,86) )  [ RunTime:0.0000s ]
+SQL: DELETE FROM `news` WHERE ( articleid in(82,83,84,85,86) ) [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Uploads/Uploads/5a163c6284cbb.jpg): No such file or directory F:\phpxiangmu\hong\Application\HaiAdmin\Controller\NewsController.class.php 第 464 行.
+NOTIC: [2] unlink(./Uploads/Uploads/5a163c6284cbb.jpg): No such file or directory F:\phpxiangmu\hong\Application\HaiAdmin\Controller\NewsController.class.php 第 464 行.
+NOTIC: [2] unlink(./Uploads/Uploads/5a163c6284cbb.jpg): No such file or directory F:\phpxiangmu\hong\Application\HaiAdmin\Controller\NewsController.class.php 第 464 行.
+
+[ 2018-01-03T16:52:43+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=0 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=19 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=20 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=2 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=3 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=6 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=11 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=9 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=10 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=18 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` INNER JOIN newstypes on news.typeid=newstypes.id  LIMIT 0,12   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T16:52:46+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=0 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=1 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=19 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=20 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=2 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=3 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=6 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=11 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=9 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=10 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=18 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` INNER JOIN newstypes on news.typeid=newstypes.id  LIMIT 0,12   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T16:52:51+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/Content/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `content`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T16:52:56+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/Content/del/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0050s ]
+SQL: DELETE FROM `content` WHERE ( id=3 ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T16:52:58+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/Content/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `content`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T16:53:00+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/Content/del/id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0040s ]
+SQL: DELETE FROM `content` WHERE ( id=4 ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T16:53:02+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/Content/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `content`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T16:53:04+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/Content/del/id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0040s ]
+SQL: DELETE FROM `content` WHERE ( id=6 ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-01-03T16:53:06+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/Content/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `content`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T16:53:08+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/Content/del/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0050s ]
+SQL: DELETE FROM `content` WHERE ( id=7 ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T16:53:10+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/Content/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `content`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-03T16:53:12+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/Content/del/id/8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0060s ]
+SQL: DELETE FROM `content` WHERE ( id=8 ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T16:53:15+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/Content/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `content`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-03T16:53:16+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/Content/del/id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0040s ]
+SQL: DELETE FROM `content` WHERE ( id=5 ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T16:53:18+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/Content/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `content`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T16:53:19+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/Banner/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `banner` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `banner` ORDER BY sort desc LIMIT 0,4   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T16:53:22+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/Banner/del.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `banner` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `banner` WHERE ( id=2 ) [ RunTime:0.0000s ]
+
+[ 2018-01-03T16:53:54+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/type.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=0 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=1 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=19 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=20 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=2 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=3 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=6 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=11 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=9 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=10 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=18 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-03T16:53:59+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/edit/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `newstypes` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=0 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=1 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=19 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=20 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=2 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=3 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=6 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=11 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=9 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=10 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=18 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T16:54:09+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0050s ]
+SQL: SELECT `typename`,`fid` FROM `newstypes` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=0 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=1 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=19 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=20 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=2 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=3 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=6 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=11 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=9 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=10 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=18 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( typename='关于我们' and id in(1,19,20,2,3,6,11,9,10,18) )  [ RunTime:0.0000s ]
+SQL: SELECT `fullpath` FROM `newstypes` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `newstypes` SET `typename`='关于我们',`fid`='0',`state`='1',`sort`='98' WHERE ( id=3 ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T16:54:11+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=0 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=19 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=20 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=2 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=3 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=6 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=11 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=9 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=10 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=18 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T16:54:15+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/edit/id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `newstypes` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=0 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=19 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=20 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=2 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=3 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=6 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=11 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=9 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=10 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=18 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T16:54:25+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0050s ]
+SQL: SELECT `typename`,`fid` FROM `newstypes` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=0 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=19 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=20 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=2 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=3 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=6 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=11 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=9 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=10 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=18 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( typename='联系我们' and id in(1,19,20,2,3,6,11,9,10,18) )  [ RunTime:0.0010s ]
+SQL: SELECT `fullpath` FROM `newstypes` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `newstypes` SET `typename`='联系我们',`fid`='0',`state`='1',`sort`='97' WHERE ( id=6 ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T16:54:28+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=0 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=19 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=20 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=2 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=3 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=6 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=11 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=9 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=10 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=18 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T16:54:33+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/edit/id/11.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `newstypes` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=0 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=19 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=20 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=2 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=3 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=6 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=11 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=9 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=10 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=18 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T16:54:40+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0040s ]
+SQL: SELECT `typename`,`fid` FROM `newstypes` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=0 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=19 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=20 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=2 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=3 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=6 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=11 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=9 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=10 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=18 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( typename='在线留言' and id in(1,19,20,2,3,6,11,9,10,18) )  [ RunTime:0.0010s ]
+SQL: SELECT `fullpath` FROM `newstypes` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `newstypes` SET `typename`='在线留言',`fid`='0',`state`='1',`sort`='96' WHERE ( id=11 ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-01-03T16:54:42+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=0 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=19 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=20 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=2 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=3 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=6 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=11 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=9 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=10 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=18 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T16:54:45+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/deltype/id/9.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=9 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0040s ]
+SQL: DELETE FROM `newstypes` WHERE ( id=9 ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T16:54:47+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=0 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=1 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=19 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=20 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=2 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=3 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=6 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=11 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=10 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=18 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T16:54:50+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/deltype/id/18.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0050s ]
+SQL: DELETE FROM `newstypes` WHERE ( id=18 ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-01-03T16:54:51+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=0 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=1 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=19 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=20 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=2 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=3 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=6 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=11 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=10 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T16:54:54+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/deltype/id/10.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=10 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0040s ]
+SQL: DELETE FROM `newstypes` WHERE ( id=10 ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T16:54:56+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=0 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=1 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=19 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=20 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=2 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=3 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=6 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=11 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T16:55:13+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/edit/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `newstypes` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=0 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=1 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=19 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=20 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=2 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=3 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=6 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=11 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T16:55:17+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0060s ]
+SQL: SELECT `typename`,`fid` FROM `newstypes` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fullpath` FROM `newstypes` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `newstypes` SET `typename`='关于我们',`fid`='0',`state`='1',`sort`='1111' WHERE ( id=3 ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T16:55:20+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=0 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=3 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=19 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=20 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=2 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=6 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=11 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T16:55:32+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/edit/id/11.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `newstypes` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=0 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=3 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=19 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=20 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=2 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=6 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=11 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T16:55:37+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0040s ]
+SQL: SELECT `typename`,`fid` FROM `newstypes` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `fullpath` FROM `newstypes` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `newstypes` SET `typename`='在线留言',`fid`='0',`state`='1',`sort`='97' WHERE ( id=11 ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T16:55:39+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=0 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=3 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=19 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=20 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=2 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=6 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=11 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-01-03T16:55:42+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/edit/id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `newstypes` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=0 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=3 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=19 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=20 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=2 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=6 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=11 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T16:55:46+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0050s ]
+SQL: SELECT `typename`,`fid` FROM `newstypes` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `fullpath` FROM `newstypes` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `newstypes` SET `typename`='联系我们',`fid`='0',`state`='1',`sort`='95' WHERE ( id=6 ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T16:55:48+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/type
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=0 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=3 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=19 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=20 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=2 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=11 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=6 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T16:55:59+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/edit/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `newstypes` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=0 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=3 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=19 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=20 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=2 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=11 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=6 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T17:13:35+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=0 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=3 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=19 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=20 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=2 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=11 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=6 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` INNER JOIN newstypes on news.typeid=newstypes.id  LIMIT 0,12   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T17:13:38+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=0 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=3 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=19 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=20 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=2 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=11 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=6 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T17:15:09+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2] finfo_file(): Empty filename or path F:\phpxiangmu\hong\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+NOTIC: [2] finfo_file(): Empty filename or path F:\phpxiangmu\hong\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0050s ]
+SQL: INSERT INTO `news` (`title`,`typeid`,`content`,`sort`,`hit`,`music`,`teacher`,`companyemail`,`companyaddr`,`keemail`,`kephone`,`shangemail`,`shangphone`) VALUES ('2015年我国地暖行业发展趋势分析','19','&lt;p&gt;&lt;span style=&quot;color: rgb(100, 100, 100); font-family: &amp;quot;microsoft yahei&amp;quot;; background-color: rgb(255, 255, 255);&quot;&gt;月31日，广东省石材行业协会在广交会威斯汀酒店隆重召开 “2016年石材年会暨第五届设计选材高层峰会（广东石协30周年庆）”。会上表彰了荣获“质量信得过企业”称号的优秀企业。环球石材作为会员单位列席会议，荣获“2015-2016年度质量信得过企业”称号，现场获得授牌表彰并宣誓及签下我们的企业承诺。&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;&lt;center&gt;&lt;img src=&quot;http://127.0.0.1/hong/Public/ueditor/themes/default/images/spacer.gif&quot;/&gt;&lt;br/&gt;&lt;br/&gt;&lt;img src=&quot;http://127.0.0.1/hong/Public/ueditor/themes/default/images/spacer.gif&quot;/&gt;&lt;br/&gt;&lt;/center&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(100, 100, 100); font-family: &amp;quot;microsoft yahei&amp;quot;; background-color: rgb(255, 255, 255);&quot;&gt;作为石材行业的先导企业，环球石材一直秉承和弘扬&amp;quot;誓作行业首，敢为天下先&amp;quot;的精神，相继获评“中国驰名商标”、“高新技术企业”、“东莞市创新型龙头企业”、“东莞市政府质量奖”、“中国建材家居企业100强”、”全国产品和服务质量诚信标杆企业”、连续四年荣登“500强开发商首选品牌石材类榜首”等多项大奖，获得了政府、合作商、客户等多方好评。&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot;color: rgb(100, 100, 100); font-family: &amp;quot;microsoft yahei&amp;quot;; background-color: rgb(255, 255, 255);&quot;&gt;此次收获“2015-2016年度质量信得过企业”荣誉称号，无疑是业界对环球石材的再次肯定，众多质量奖项与标准认证也充分证明环球石材始终坚持走品质路线，不断精益求精，以标杆企业的标准自立，助推行业整体发展，并且致力于打造为国际领先的装饰石材系统解决方案提供商。环球石材将在未来的发展中不断向客户提供优质装饰石材和优越的客户服务，认真履行对客户的各项承诺，不断开拓进取，获得更大的收获和成功！&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;','0','0','','','','','','','','') [ RunTime:0.0530s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T17:15:12+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=0 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=3 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=19 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=20 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=2 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=11 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=6 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` INNER JOIN newstypes on news.typeid=newstypes.id  LIMIT 0,12   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T17:15:15+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/modnews/articleid/87.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0060s ]
+SQL: SELECT news.* FROM `news` INNER JOIN newstypes as a on news.typeid=a.id  WHERE ( articleid=87 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=0 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=3 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=1 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=19 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=20 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=2 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=11 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=6 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: shangemail F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\11ea3a543d390f6aae6dafd19933773d.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T17:17:25+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/type.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=0 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=3 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=19 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=20 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=2 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=11 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=6 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-03T17:22:34+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=0 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=3 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=1 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=19 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=20 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=2 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=11 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=6 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` INNER JOIN newstypes on news.typeid=newstypes.id  LIMIT 0,12   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+NOTIC: [8] Undefined variable: typeid F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\079017df12fee1e1363fd7e39317d289.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-01-03T17:51:04+08:00 ] 127.0.0.1 /hong/index.php/HaiAdmin/News/modnews/articleid/91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0050s ]
+SQL: SELECT news.* FROM `news` INNER JOIN newstypes as a on news.typeid=a.id  WHERE ( articleid=91 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=0 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=3 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=1 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=19 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=20 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=2 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=11 ) ORDER BY sort desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `newstypes` WHERE ( fid=6 ) ORDER BY sort desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: shangemail F:\phpxiangmu\hong\Application\Runtime\Cache\HaiAdmin\11ea3a543d390f6aae6dafd19933773d.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

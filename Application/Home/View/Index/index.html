@@ -1,0 +1,110 @@
+<include file="Public:header"/>            
+            <div class="in_ban">               
+                <div class="bd">
+          <ul>
+              <volist name="banner" id="vo">        
+              <li style="background:url(__ROOT__/Uploads/{$vo.imagename}) center 0 no-repeat;"><a target="_blank" href="http://www.dzswedu.com/"></a></li>
+            </volist>
+                                    
+          </ul>
+        </div>    
+        <div class="hd"><ul></ul></div>
+            </div>
+            <script type="text/javascript">
+        jQuery(".in_ban").slide({ titCell:".hd ul", mainCell:".bd ul", effect:"fold",  autoPlay:true, autoPage:true, trigger:"click" });
+      </script>
+      <div class="in_nav">
+        <div class="servicesBox">
+            <volist name="types" id="vo">
+                        <div class="serBox">
+            <div id="Div1" class="serBox1" onclick="serFocus(1)">
+              <div class="serBoxOn"></div>
+              <div class="pic2 mypng"><a href="{:U('Product/index',array('id'=>$vo['id']))}" target="_blank"><img src="__ROOT__/Uploads/{$vo.imagecate}" alt="{$vo.typename}"></a></div>
+              <div class="pic1 mypng"> <img src="__ROOT__/Uploads/{$vo.imagecate}" alt="{$vo.typename}"> </div>
+            </div>
+            <div class="txt1"> 
+              <a href="{:U('Product/index',array('id'=>$vo['id']))}" target="_blank" class="a_jump">
+                <span class="tit">{$vo.typename}</span>
+                <p>{$vo.describle}</p>
+              </a> 
+            </div>
+           
+          </div>
+         </volist>
+            </div>
+        <script type="text/javascript" src="http://www.zzktz.com/statics/js/index.js"></script>       
+      </div>
+        </div>
+  </div>
+  <div class="section section2">
+    <div class="inner">
+      <div class="in_alzs">
+        <div class="in_alzs1"><a href="http://www.zzktz.com/cases/list_2"><img src="http://www.zzktz.com/statics/images/in_alzstit.png" alt="郑州APP开发"/></a></div>
+        <div class="in_alzs2"><div class="des">在多年来的发展探索中，开拓者科技秉承“帮助客户创造价值”的理念，致力于信息化建设及品牌营销的领域，提供企业形象管理、视觉创意设计、网站建设与维护、电商平台开发、APP及微信平台开发等服务</div></div>
+       
+        <div class="in_alzs4">
+          <ul id="con_one_1">
+          <volist name="news" id="vo">
+                                    <li>
+                <a href="{:U('NewsInfo/index',array('articleid'=>$vo['articleid']))}" title="{$vo.title}">
+                  <img src="__ROOT__/Uploads/{$vo.imagename}" width="285" height="176" alt="{$vo.title}"/>
+                </a>
+                <div class="licov">
+                    <a href="{:U('NewsInfo/index',array('articleid'=>$vo['articleid']))}" title="{$vo.title}">
+                    <p class="p1">{$vo.title}</p>
+                  <p class="p2">www</p>
+                    </a>
+                </div>
+            </li>
+            </volist>           
+                                  
+              
+          </ul> 
+      
+        </div>
+        <div class="in_alzs5">
+          <a href="{:U('NewsList/index')}">更多案例</a>
+        </div>              
+            </div>
+    </div>
+    </div>
+  <div class="section section3">
+      <div class="inner">
+      <div class="in_serv">  
+        <div class="in_alzs1"><a href="http://www.zzktz.com/solution/list_5"><img src="http://www.zzktz.com/statics/images/in_servtit.png" alt="郑州APP开发客户"/></a></div>
+        <div class="in_serv2">
+          <ul>
+             <volist name="link" id="vo">
+                <li><a href="{$vo.link}" title=""><img src="__ROOT__/Uploads/{$vo.imagename}" width="220" height="70" alt=""/></a></li>
+               </volist>     
+                        
+          </ul>
+        </div>
+            </div>
+            <div class="in_new">
+              <div class="in_news">
+              <volist name="re" id="vo" key="k">
+                <div class="in_news1 fl" <eq name="k" value="1">style="margin-left: 0;"</eq>>
+                  <div class="in_news1tit">
+                    <div class="in_news1tit1 fl"><a href="{:U('Company/index',array('id'=>$vo['id']))}">{$vo.typename}</a></div>
+                    <div class="in_news1tit2 fr"><a href="{:U('Company/index',array('id'=>$vo['id']))}">更多&gt;</a></div>
+                  </div>
+                
+                  <div class="img">             
+                              
+              <a href="{:U('CompanyInfo/index',array('articleid'=>$vo['son']['articleid']))}" title="{$vo['son'].title}"><img src="__ROOT__/Uploads/{$vo['son'].imagename}" width="346" height="220" alt="{$vo['son'].title}"/></a>
+                    </div>
+                  
+                  <div class="ct">
+                    <ul>
+              </ul>
+                  </div>
+                </div>
+                </volist>
+         
+
+              </div>
+            </div>
+    </div>    
+  </div>
+  <include file="Public:footer"/>

@@ -1,0 +1,75 @@
+[ 2017-11-29T12:11:31+08:00 ] 127.0.0.1 /hzr/haiadmin/login/index.html
+ERR: 无法加载控制器:Login
+
+[ 2017-11-29T12:11:41+08:00 ] 127.0.0.1 /hzr/haiadmin/login/verify.html
+ERR: 无法加载控制器:Login
+
+[ 2017-11-29T12:13:37+08:00 ] 127.0.0.1 /hzr/haiadmin/login/verify.html
+ERR: 无法加载控制器:Login
+
+[ 2017-11-29T12:13:41+08:00 ] 127.0.0.1 /hzr/haiadmin/login/verify.html
+ERR: 无法加载控制器:Login
+
+[ 2017-11-29T12:14:02+08:00 ] 127.0.0.1 /hzr/haiadmin/login/index.html
+ERR: 无法加载控制器:Login
+
+[ 2017-11-29T12:14:02+08:00 ] 127.0.0.1 /hzr/haiadmin/login/verify.html
+ERR: 无法加载控制器:Login
+
+[ 2017-11-29T12:14:12+08:00 ] 127.0.0.1 /hzr/haiadmin/login/index.html
+ERR: 无法加载控制器:Login
+
+[ 2017-11-29T12:20:23+08:00 ] 127.0.0.1 /hzr/haiadmin/login/index.html
+ERR: 无法加载控制器:Login
+
+[ 2017-11-29T12:23:33+08:00 ] 127.0.0.1 /hzr/haiadmin/login/index.html
+ERR: 无法加载控制器:Login
+
+[ 2017-11-29T12:24:41+08:00 ] 127.0.0.1 /hzr/haiadmin/login/index.html
+ERR: 无法加载控制器:Login
+
+[ 2017-11-29T13:36:19+08:00 ] 127.0.0.1 /hzr/HaiAdmin
+ERR: 无法加载控制器:Index
+
+[ 2017-11-29T13:36:28+08:00 ] 127.0.0.1 /hzr/haiadmin
+ERR: 无法加载控制器:Index
+
+[ 2017-11-29T13:36:55+08:00 ] 127.0.0.1 /hzr/index.php/haiadmin
+ERR: 无法加载控制器:Index
+
+[ 2017-11-29T13:37:34+08:00 ] 127.0.0.1 /hzr/index.php/haiadmin
+ERR: 无法加载控制器:Index
+
+[ 2017-11-29T13:37:50+08:00 ] 127.0.0.1 /hzr/haiadmin/login/index.html
+ERR: 无法加载控制器:Login
+
+[ 2017-11-29T13:38:04+08:00 ] 127.0.0.1 /hzr/haiadmin/login/verify.html
+ERR: 无法加载控制器:Login
+
+[ 2017-11-29T13:38:04+08:00 ] 127.0.0.1 /hzr/haiadmin/login/verify.html
+ERR: 无法加载控制器:Login
+
+[ 2017-11-29T13:54:46+08:00 ] 127.0.0.1 /hzr/haiadmin/login/index.html
+ERR: 无法加载控制器:Login
+
+[ 2017-11-29T13:54:55+08:00 ] 127.0.0.1 /hzr/haiadmin/login/verify.html
+ERR: 无法加载控制器:Login
+
+[ 2017-11-29T13:55:16+08:00 ] 127.0.0.1 /hzr/haiadmin/login/verify.html
+ERR: 无法加载控制器:Login
+
+[ 2017-11-29T13:55:35+08:00 ] 127.0.0.1 /hzr/haiadmin/login/verify.html
+ERR: 无法加载控制器:Login
+
+[ 2017-11-29T13:55:35+08:00 ] 127.0.0.1 /hzr/haiadmin/login/verify.html
+ERR: 无法加载控制器:Login
+
+[ 2017-11-29T13:57:44+08:00 ] 127.0.0.1 /hzr/haiadmin/login/verify.html
+ERR: 无法加载控制器:Login
+
+[ 2017-11-29T13:57:44+08:00 ] 127.0.0.1 /hzr/haiadmin/login/verify.html
+ERR: 无法加载控制器:Login
+
+[ 2017-11-29T13:57:46+08:00 ] 127.0.0.1 /hzr/haiadmin/login/verify.html
+ERR: 无法加载控制器:Login
+

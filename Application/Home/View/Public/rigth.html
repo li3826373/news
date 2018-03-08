@@ -1,0 +1,32 @@
+<div class="float-right">
+  <div class="kefu-qq">
+    <a href="http://wpa.qq.com/msgrd?v=3&uin={$conf.qq}&site=qq&menu=yes" target="_bank"><img src="http://www.zzktz.com/statics/images/kefu-qq.png" alt="APP开发客服"></a>
+  </div>
+
+  <div class="kefu-tel"  onmouseover="ddd('bb', 'show');" onmouseout="ddd('bb', 'hide');">
+    <img src="http://www.zzktz.com/statics/images/kefu-tel.png" alt="APP开发电话">
+    <div style="display:none;" id="bb" onmouseover="ddd('bb', 'show');" onmouseout="ddd('bb', 'hide');"> 
+      <img src="http://www.zzktz.com/statics/images/tel-phone.png" alt="APP开发电话">
+    </div>
+  </div>
+
+  <div class="kefu-line"  onmouseover="ddd('aa', 'show');" onmouseout="ddd('aa', 'hide');">
+    <img src="http://www.zzktz.com/statics/images/kefu-line.png">
+    <div style="display:none;" id="aa" onmouseover="ddd('aa', 'show');" onmouseout="ddd('aa', 'hide');"> 
+      <img src="__ROOT__/Uploads/{$conf.weixin_code}">
+    </div>
+  </div>
+
+  <div class="kefu-toubu" onClick="gotoTop();return false;">
+    <img src="http://www.zzktz.com/statics/images/kefu-toubu.png">
+  </div>
+</div>
+<script type="text/javascript" src="http://www.zzktz.com/statics/js/top.js"></script>
+
+<script> 
+  function ddd(obj, sType) { 
+  var oDiv = document.getElementById(obj); 
+  if (sType == 'show') { oDiv.style.display = 'block';} 
+  if (sType == 'hide') { oDiv.style.display = 'none';} 
+  } 
+</script> 

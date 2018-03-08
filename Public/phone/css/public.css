@@ -1,0 +1,230 @@
+.navbar-default {
+  background: #fff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background: #1fa0ef;
+}
+
+.navbar-header .navbar-toggle {
+  float: left;
+  border: none;
+  margin-left: 14px;
+}
+
+.navbar-header .navbar-brand {
+  width: 80%;
+  float: left;
+}
+
+.navbar-header .navbar-brand img {
+  width: 80%;
+  margin: -12px auto 0 auto;
+}
+
+.navbar-collapse {
+  background: #2292fe;
+  position: absolute;
+  left: -200px;
+  max-height: 380px !important;
+  transition: all .3s;
+  top: 50px;
+  z-index: 99;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav>.active>a {
+  background: #155593;
+  color: #fff;
+}
+
+.navbar-toggle {
+  transition: .3s all;
+}
+
+.navbar-default .navbar-toggle:hover {
+  background: rgba(255, 255, 255, 0);
+}
+
+.navbar {
+  line-height: 0;
+  margin-bottom: 0;
+}
+
+/*nav重构结束*/
+
+.banner img {
+  width: 100%;
+}
+
+/*content开始*/
+
+.tittle h3 {
+  font-size: 18px;
+  margin-bottom: 0;
+  color: #8e8b8b;
+}
+
+/*about*/
+
+.tittle h3 span {
+  background: red;
+  width: 36px;
+  height: 4px;
+  display: inline-block;
+  border-radius: 3px;
+  margin-left: 6px;
+}
+
+.tittle p a {
+  float: right;
+}
+
+.aboutUs-content img {
+  width: 100%;
+}
+
+.aboutUs-content h3 {
+  font-size: 20px;
+}
+
+/*team*/
+
+.team-content ul img {
+  width: 100%;
+  min-height: 145px;
+}
+
+.team-content ul {
+  list-style: none;
+}
+
+.team-content ul li {
+  padding: 0;
+  background: #efefef;
+  height: 145px;
+  border: 1px solid #fff;
+}
+
+.team-content ul p {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+}
+
+.team-content ul p, .team-content ul h4 {
+  padding: 0 6px;
+}
+
+/*shipin*/
+
+.shipin-contetn ul {
+  list-style: none;
+}
+
+.shipin-contetn ul .shipin-img {
+  height: 170px;
+}
+
+.shipin-contetn ul img {
+  width: 100%;
+  height: 100%;
+}
+
+.shipin-contetn ul li {
+  padding: 0 4px;
+}
+
+.shipin-contetn ul p {
+  font-size: 12px;
+}
+
+/*style*/
+
+.sstyle ul {
+  list-style: none;
+}
+
+.sstyle ul img {
+  height: 119px;
+  width: 100%;
+}
+
+.sstyle ul li {
+  padding: 0 5px;
+}
+
+/*news*/
+
+.news ul {
+  list-style: none;
+}
+
+.news .news-img img {
+  width: 100%;
+}
+
+.news ul li {
+  padding: 10px 0;
+  border-top: 1px solid #d7d7d7;
+}
+
+.new-wrap {
+  background: #efefef;
+}
+
+/*content结束*/
+
+/*二级页面的地址*/
+
+.dizhi {}
+
+.dizhi ul li {
+  line-height: 2.5;
+  list-style: square;
+  color: #009af0;
+  padding-left: 0
+}
+
+.dizhi ul a {
+  color: #686868;
+}
+
+.dizhi ul i {
+  font-style: normal;
+}
+
+.dizhi-con {
+  background: #009af0;
+  color: #fff;
+  padding: 10px;
+}
+
+.dizhi-con span {
+  color: #fff;
+  display: inline-block;
+  margin-left: 6px;
+  padding-right: 6px;
+}
+
+.dizhi .active a {
+  color: #009af0;
+}
+
+/*二级页面的地址结束*/
+.er-tittle{
+  text-align: center;
+}
+.er-tittle h4{
+  color: #c83935;
+  margin: 0;
+  padding-top: 10px;
+}
+.er-tittle p{
+  color: #868686;
+  font-size: 12px;
+}

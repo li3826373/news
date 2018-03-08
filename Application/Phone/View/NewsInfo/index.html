@@ -1,0 +1,31 @@
+<include file="Public:header"/>
+  <!-- nav结束 -->
+  <div class="dizhi container">
+    <div class="row">
+      <div class="dizhi-con container" onclick="location.href='{:U('Index/index')}'">
+        <span>海之韵</span>><span>{$info.title}</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="details-text container">
+    <h3>{$info.title} <i>{$info.dateandtime|substr=0,10}</i></h3>
+    <p>
+    <img src="__ROOT__/Uploads/{$info.imagename}" style="display: block;margin:0 auto; max-width: 100%;">
+    {$info.content|htmlspecialchars_decode}
+    </p>
+  </div>
+<notempty name="info.lookurl">
+  <div class="details-video container">
+    <h3>{$info.title} <i>{$info.dateandtime|substr=0,10}</i></h3>
+    <video src="__ROOT__/Uploads/{$info.lookurl}" id='myvideo'>
+    </video>
+
+  </div>
+  </notempty>
+  <script src="__PUBLIC__/phone/js/jquery-3.1.1.min.js" charset="utf-8"></script>
+  <script src="__PUBLIC__/phone/js/top.js" charset="utf-8"></script>
+  <script src="__PUBLIC__/phone/js/video.js" charset="utf-8"></script>
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+<include file="Public:header"/>
+  <!-- nav结束 -->
+  <div class="dizhi container">
+    <div class="row">
+      <div class="dizhi-con container">
+        <span>海之韵</span>><span>{$newstype.typename}</span>
+      </div>
+    </div>
+  </div>
+  <!-- content开始 -->
+  <div class="kecheng-tittle container">
+    <p>HAIZHIYUN</p>
+    <h4>{$newstype.typename}推荐</h4>
+  </div>
+  <div class="kecheng-top container">
+    <div class="row">
+      <div class="top-img col-xs-12">
+        <a href="{:U('NewsInfo/index',array('articleid'=>$headke['articleid']))}"><img src="__ROOT__/Uploads/{$headke.imagename}"></a>
+        <p>{$headke.title}</p>
+      </div>
+      <div class="top-txt col-xs-12">
+        <ul class="row container">
+        <volist name="hotcoure" id="vo">
+          <li class="row" onclick="location.href='{:U('NewsInfo/index',array('articleid'=>$vo['articleid']))}'">
+            <div class="news-img col-xs-4">
+              <img src="__ROOT__/Uploads/{$vo.imagename}">
+            </div>
+            <div class="news-txt col-xs-8">
+              <h5>{$vo.title}</h5>
+              <p>{$vo.describle|htmlspecialchars_decode|strip_tags|mb_substr=0,15,'UTF-8'}...</p>
+            </div>
+          </li>
+         </volist>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="kecheng-tittle container">
+    <p>HAIZHIYUN</p>
+    <h4>{$newstype.typename}</h4>
+  </div>
+  <div class="kecheng-bottom container">
+    <ul class="row container" id="add">
+    <volist name="ke" id="vo">
+      <li class="col-xs-6" onclick="location.href='{:U('NewsInfo/index',array('articleid'=>$vo['articleid']))}'">
+        <img src="__PUBLIC__/phone/images/sstyle-3.jpg">
+        <h5>{$vo.title}</h5>
+        <p>{$vo.dateandtime|substr=0,10}</p>
+      </li>
+     </volist>
+    </ul>
+  </div>
+  <p style="text-align: center;" onclick="check({$id},$(this),a=1)" id="1" class="adding">更多...</p>
+  <!-- content结束 -->
+  <script src="__PUBLIC__/phone/js/jquery-3.1.1.min.js" charset="utf-8"></script>
+  <script src="__PUBLIC__/phone/js/top.js" charset="utf-8"></script>
+</body>
+
+</html>
+<script type="text/javascript">
+  function check(id,obj,a){
+       var pid=obj.attr("id");
+      $.ajax({
+          "url":"{:U('Coure/more')}",
+          "type":"get",
+          "dataType":"html",
+          "data":{"id":id,"pid":pid},
+          "error":function(){},
+          "success":function(re){
+            if(re!=""){
+              $("#add").append(re);
+              obj.attr("id",parseInt(pid)+1);
+            }else{
+              $(".adding").html("<font color='red'>没有更多了</font>...");
+              $(".adding").unbind();
+            }
+          }
+     });
+}
+
+
+</script>

@@ -1,0 +1,24 @@
+.details-text {}
+
+.details-text h3, .details-video h3 {
+  border-bottom: 1px solid #d7d7d7;
+  padding-bottom: 8px;
+}
+
+.details-text h3 i {
+  font-style: normal;
+  font-size: 16px;
+  float: right;
+  line-height: 2
+}
+
+.details-video h3 i {
+  font-style: normal;
+  font-size: 16px;
+  float: right;
+  line-height: 2
+}
+
+.details-video video{
+  width: 100%;
+}

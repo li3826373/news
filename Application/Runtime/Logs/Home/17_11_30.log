@@ -1,0 +1,2876 @@
+[ 2017-11-30T10:31:01+08:00 ] 127.0.0.1 /hzr/
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'cece'@'localhost' (using password: YES)
+
+[ 2017-11-30T10:31:06+08:00 ] 127.0.0.1 /hzr/
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'cece'@'localhost' (using password: YES)
+
+[ 2017-11-30T10:31:33+08:00 ] 127.0.0.1 /hzr/
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'cece'@'localhost' (using password: YES)
+
+[ 2017-11-30T10:31:45+08:00 ] 127.0.0.1 /hzr/
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'cece'@'localhost' (using password: YES)
+
+[ 2017-11-30T10:32:24+08:00 ] 127.0.0.1 /hzr/
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'cece'@'localhost' (using password: YES)
+
+[ 2017-11-30T10:33:08+08:00 ] 127.0.0.1 /hzr/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.1510s ]
+SQL: SELECT * FROM `newstypes` WHERE ( state=1 ) ORDER BY sort desc LIMIT 7   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.1140s ]
+SQL: SELECT * FROM `config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0420s ]
+SQL: SELECT * FROM `content` WHERE `type` = 2 AND `postion` = 2 LIMIT 1   [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0810s ]
+SQL: SELECT * FROM `banner` WHERE `state` = 0 AND `postion` = 1 ORDER BY sort desc LIMIT 3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0350s ]
+SQL: SELECT * FROM `news` WHERE ( hot=4 and typeid=9 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=0 ) ORDER BY sort desc LIMIT 5   [ RunTime:0.0300s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=2 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `content` WHERE `type` = 1 AND `postion` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=6 ) ORDER BY sort desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=6 and hot=7 ) ORDER BY hit desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot =2 and typeid=9 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=3 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=1 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: newstypes F:\phpxiangmu\hzr\Application\Home\Controller\IndexController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: fid F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 294 行.
+NOTIC: [8] Undefined index: id F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 295 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.274015s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.275015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.041003s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.041003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013001s ]
+
+[ 2017-11-30T10:33:10+08:00 ] 127.0.0.1 /hzr/Public/css/images/icoCircle.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T10:33:16+08:00 ] 127.0.0.1 /hzr/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0390s ]
+SQL: SELECT * FROM `newstypes` WHERE ( state=1 ) ORDER BY sort desc LIMIT 7   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `content` WHERE `type` = 2 AND `postion` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `news` WHERE ( hot=4 and typeid=9 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=0 ) ORDER BY sort desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=2 and hot=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `content` WHERE `type` = 1 AND `postion` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=6 ) ORDER BY sort desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=6 and hot=7 ) ORDER BY hit desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot =2 and typeid=9 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=3 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=1 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: newstypes F:\phpxiangmu\hzr\Application\Home\Controller\IndexController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: fid F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 294 行.
+NOTIC: [8] Undefined index: id F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 295 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-11-30T10:33:18+08:00 ] 127.0.0.1 /hzr/Public/phone/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T10:33:19+08:00 ] 127.0.0.1 /hzr/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `newstypes` WHERE ( state=1 ) ORDER BY sort desc LIMIT 7   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `content` WHERE `type` = 2 AND `postion` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `news` WHERE ( hot=4 and typeid=9 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=0 ) ORDER BY sort desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=2 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `content` WHERE `type` = 1 AND `postion` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=6 ) ORDER BY sort desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=6 and hot=7 ) ORDER BY hit desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot =2 and typeid=9 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=3 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=1 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: newstypes F:\phpxiangmu\hzr\Application\Home\Controller\IndexController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: fid F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 294 行.
+NOTIC: [8] Undefined index: id F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 295 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-11-30T10:33:28+08:00 ] 127.0.0.1 /hzr/Public/phone/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-11-30T10:33:29+08:00 ] 127.0.0.1 /hzr/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `newstypes` WHERE ( state=1 ) ORDER BY sort desc LIMIT 7   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `content` WHERE `type` = 2 AND `postion` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `news` WHERE ( hot=4 and typeid=9 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=0 ) ORDER BY sort desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=2 and hot=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `content` WHERE `type` = 1 AND `postion` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=6 ) ORDER BY sort desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=6 and hot=7 ) ORDER BY hit desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot =2 and typeid=9 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=3 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=1 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: newstypes F:\phpxiangmu\hzr\Application\Home\Controller\IndexController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: fid F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 294 行.
+NOTIC: [8] Undefined index: id F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 295 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T10:33:50+08:00 ] 127.0.0.1 /hzr/Public/phone/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-11-30T10:33:52+08:00 ] 127.0.0.1 /hzr/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `newstypes` WHERE ( state=1 ) ORDER BY sort desc LIMIT 7   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `content` WHERE `type` = 2 AND `postion` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `news` WHERE ( hot=4 and typeid=9 ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=0 ) ORDER BY sort desc LIMIT 5   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=2 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `content` WHERE `type` = 1 AND `postion` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=6 ) ORDER BY sort desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=6 and hot=7 ) ORDER BY hit desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot =2 and typeid=9 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=3 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=1 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: newstypes F:\phpxiangmu\hzr\Application\Home\Controller\IndexController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: fid F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 294 行.
+NOTIC: [8] Undefined index: id F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 295 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T10:35:58+08:00 ] 127.0.0.1 /hzr/Public/phone/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-11-30T10:35:59+08:00 ] 127.0.0.1 /hzr/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `newstypes` WHERE ( state=1 ) ORDER BY sort desc LIMIT 7   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `content` WHERE `type` = 2 AND `postion` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `banner` WHERE `state` = 0 AND `postion` = 1 ORDER BY sort desc LIMIT 3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `news` WHERE ( hot=4 and typeid=9 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=0 ) ORDER BY sort desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=2 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `content` WHERE `type` = 1 AND `postion` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=6 ) ORDER BY sort desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=6 and hot=7 ) ORDER BY hit desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot =2 and typeid=9 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=3 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=1 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: newstypes F:\phpxiangmu\hzr\Application\Home\Controller\IndexController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: fid F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 294 行.
+NOTIC: [8] Undefined index: id F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 295 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T10:36:24+08:00 ] 127.0.0.1 /hzr/Public/phone/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T10:36:25+08:00 ] 127.0.0.1 /hzr/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `newstypes` WHERE ( state=1 ) ORDER BY sort desc LIMIT 7   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `content` WHERE `type` = 2 AND `postion` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `news` WHERE ( hot=4 and typeid=9 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=0 ) ORDER BY sort desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=2 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `content` WHERE `type` = 1 AND `postion` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=6 ) ORDER BY sort desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=6 and hot=7 ) ORDER BY hit desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot =2 and typeid=9 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=3 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=1 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: newstypes F:\phpxiangmu\hzr\Application\Home\Controller\IndexController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: fid F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 294 行.
+NOTIC: [8] Undefined index: id F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 295 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T10:36:47+08:00 ] 127.0.0.1 /hzr/Public/phone/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T10:36:48+08:00 ] 127.0.0.1 /hzr/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `newstypes` WHERE ( state=1 ) ORDER BY sort desc LIMIT 7   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `content` WHERE `type` = 2 AND `postion` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `news` WHERE ( hot=4 and typeid=9 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=0 ) ORDER BY sort desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=2 and hot=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `content` WHERE `type` = 1 AND `postion` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=6 ) ORDER BY sort desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=6 and hot=7 ) ORDER BY hit desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot =2 and typeid=9 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=3 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=1 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: newstypes F:\phpxiangmu\hzr\Application\Home\Controller\IndexController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: fid F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 294 行.
+NOTIC: [8] Undefined index: id F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 295 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T10:37:41+08:00 ] 127.0.0.1 /hzr/Public/phone/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T10:37:42+08:00 ] 127.0.0.1 /hzr/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `newstypes` WHERE ( state=1 ) ORDER BY sort desc LIMIT 7   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `content` WHERE `type` = 2 AND `postion` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `banner` WHERE `state` = 0 AND `postion` = 1 ORDER BY sort desc LIMIT 3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `news` WHERE ( hot=4 and typeid=9 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=0 ) ORDER BY sort desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=2 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `content` WHERE `type` = 1 AND `postion` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=6 ) ORDER BY sort desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=6 and hot=7 ) ORDER BY hit desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot =2 and typeid=9 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=3 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=1 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: newstypes F:\phpxiangmu\hzr\Application\Home\Controller\IndexController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: fid F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 294 行.
+NOTIC: [8] Undefined index: id F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 295 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T10:38:25+08:00 ] 127.0.0.1 /hzr/Public/phone/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T10:38:26+08:00 ] 127.0.0.1 /hzr/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `newstypes` WHERE ( state=1 ) ORDER BY sort desc LIMIT 7   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `content` WHERE `type` = 2 AND `postion` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `news` WHERE ( hot=4 and typeid=9 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=0 ) ORDER BY sort desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=2 and hot=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `content` WHERE `type` = 1 AND `postion` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=6 ) ORDER BY sort desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=6 and hot=7 ) ORDER BY hit desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot =2 and typeid=9 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=3 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=1 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: newstypes F:\phpxiangmu\hzr\Application\Home\Controller\IndexController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: fid F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 294 行.
+NOTIC: [8] Undefined index: id F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 295 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T10:38:33+08:00 ] 127.0.0.1 /hzr/Public/phone/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T10:38:34+08:00 ] 127.0.0.1 /hzr/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `newstypes` WHERE ( state=1 ) ORDER BY sort desc LIMIT 7   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `content` WHERE `type` = 2 AND `postion` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `news` WHERE ( hot=4 and typeid=9 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=0 ) ORDER BY sort desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=2 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `content` WHERE `type` = 1 AND `postion` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=6 ) ORDER BY sort desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=6 and hot=7 ) ORDER BY hit desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot =2 and typeid=9 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=3 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=1 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: newstypes F:\phpxiangmu\hzr\Application\Home\Controller\IndexController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: fid F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 294 行.
+NOTIC: [8] Undefined index: id F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 295 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-11-30T10:38:44+08:00 ] 127.0.0.1 /hzr/Public/phone/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T10:38:45+08:00 ] 127.0.0.1 /hzr/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `newstypes` WHERE ( state=1 ) ORDER BY sort desc LIMIT 7   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `content` WHERE `type` = 2 AND `postion` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `banner` WHERE `state` = 0 AND `postion` = 1 ORDER BY sort desc LIMIT 3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `news` WHERE ( hot=4 and typeid=9 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=0 ) ORDER BY sort desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=2 and hot=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `content` WHERE `type` = 1 AND `postion` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=6 ) ORDER BY sort desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=6 and hot=7 ) ORDER BY hit desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot =2 and typeid=9 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=3 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=1 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: newstypes F:\phpxiangmu\hzr\Application\Home\Controller\IndexController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: fid F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 294 行.
+NOTIC: [8] Undefined index: id F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 295 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T10:39:22+08:00 ] 127.0.0.1 /hzr/Public/phone/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T10:39:23+08:00 ] 127.0.0.1 /hzr/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `newstypes` WHERE ( state=1 ) ORDER BY sort desc LIMIT 7   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `content` WHERE `type` = 2 AND `postion` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `news` WHERE ( hot=4 and typeid=9 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=0 ) ORDER BY sort desc LIMIT 5   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=2 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `content` WHERE `type` = 1 AND `postion` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=6 ) ORDER BY sort desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=6 and hot=7 ) ORDER BY hit desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot =2 and typeid=9 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=3 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=1 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: newstypes F:\phpxiangmu\hzr\Application\Home\Controller\IndexController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: fid F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 294 行.
+NOTIC: [8] Undefined index: id F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 295 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T10:40:45+08:00 ] 127.0.0.1 /hzr/Public/phone/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T10:40:46+08:00 ] 127.0.0.1 /hzr/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `newstypes` WHERE ( state=1 ) ORDER BY sort desc LIMIT 7   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `content` WHERE `type` = 2 AND `postion` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `banner` WHERE `state` = 0 AND `postion` = 1 ORDER BY sort desc LIMIT 3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `news` WHERE ( hot=4 and typeid=9 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=0 ) ORDER BY sort desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=2 and hot=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `content` WHERE `type` = 1 AND `postion` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=6 ) ORDER BY sort desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=6 and hot=7 ) ORDER BY hit desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot =2 and typeid=9 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=3 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=1 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: newstypes F:\phpxiangmu\hzr\Application\Home\Controller\IndexController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: fid F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 294 行.
+NOTIC: [8] Undefined index: id F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 295 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-11-30T10:41:15+08:00 ] 127.0.0.1 /hzr/Public/phone/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T10:41:16+08:00 ] 127.0.0.1 /hzr/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `newstypes` WHERE ( state=1 ) ORDER BY sort desc LIMIT 7   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `content` WHERE `type` = 2 AND `postion` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `news` WHERE ( hot=4 and typeid=9 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=0 ) ORDER BY sort desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=2 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `content` WHERE `type` = 1 AND `postion` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=6 ) ORDER BY sort desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=6 and hot=7 ) ORDER BY hit desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot =2 and typeid=9 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=3 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=1 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: newstypes F:\phpxiangmu\hzr\Application\Home\Controller\IndexController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: fid F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 294 行.
+NOTIC: [8] Undefined index: id F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 295 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T10:41:19+08:00 ] 127.0.0.1 /hzr/Public/phone/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T10:41:20+08:00 ] 127.0.0.1 /hzr/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `newstypes` WHERE ( state=1 ) ORDER BY sort desc LIMIT 7   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `content` WHERE `type` = 2 AND `postion` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `news` WHERE ( hot=4 and typeid=9 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=0 ) ORDER BY sort desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=2 and hot=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `content` WHERE `type` = 1 AND `postion` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=6 ) ORDER BY sort desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=6 and hot=7 ) ORDER BY hit desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot =2 and typeid=9 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=3 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=1 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: newstypes F:\phpxiangmu\hzr\Application\Home\Controller\IndexController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: fid F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 294 行.
+NOTIC: [8] Undefined index: id F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 295 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T10:42:32+08:00 ] 127.0.0.1 /hzr/Public/phone/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T10:42:33+08:00 ] 127.0.0.1 /hzr/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `newstypes` WHERE ( state=1 ) ORDER BY sort desc LIMIT 7   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `content` WHERE `type` = 2 AND `postion` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `banner` WHERE `state` = 0 AND `postion` = 1 ORDER BY sort desc LIMIT 3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `news` WHERE ( hot=4 and typeid=9 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=0 ) ORDER BY sort desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=2 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `content` WHERE `type` = 1 AND `postion` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=6 ) ORDER BY sort desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=6 and hot=7 ) ORDER BY hit desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot =2 and typeid=9 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=3 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=1 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: newstypes F:\phpxiangmu\hzr\Application\Home\Controller\IndexController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: fid F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 294 行.
+NOTIC: [8] Undefined index: id F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 295 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T10:43:50+08:00 ] 127.0.0.1 /hzr/Public/phone/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T10:43:51+08:00 ] 127.0.0.1 /hzr/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `newstypes` WHERE ( state=1 ) ORDER BY sort desc LIMIT 7   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `content` WHERE `type` = 2 AND `postion` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `banner` WHERE `state` = 0 AND `postion` = 1 ORDER BY sort desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `news` WHERE ( hot=4 and typeid=9 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=0 ) ORDER BY sort desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=2 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `content` WHERE `type` = 1 AND `postion` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=6 ) ORDER BY sort desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=6 and hot=7 ) ORDER BY hit desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot =2 and typeid=9 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=3 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=1 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: newstypes F:\phpxiangmu\hzr\Application\Home\Controller\IndexController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: fid F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 294 行.
+NOTIC: [8] Undefined index: id F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 295 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T10:44:15+08:00 ] 127.0.0.1 /hzr/Public/phone/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-11-30T10:44:16+08:00 ] 127.0.0.1 /hzr/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `newstypes` WHERE ( state=1 ) ORDER BY sort desc LIMIT 7   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `content` WHERE `type` = 2 AND `postion` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `news` WHERE ( hot=4 and typeid=9 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=0 ) ORDER BY sort desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=2 and hot=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `content` WHERE `type` = 1 AND `postion` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=6 ) ORDER BY sort desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=6 and hot=7 ) ORDER BY hit desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot =2 and typeid=9 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=3 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=1 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: newstypes F:\phpxiangmu\hzr\Application\Home\Controller\IndexController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: fid F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 294 行.
+NOTIC: [8] Undefined index: id F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 295 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T10:45:39+08:00 ] 127.0.0.1 /hzr/Public/phone/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T10:45:40+08:00 ] 127.0.0.1 /hzr/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `newstypes` WHERE ( state=1 ) ORDER BY sort desc LIMIT 7   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `content` WHERE `type` = 2 AND `postion` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `banner` WHERE `state` = 0 AND `postion` = 1 ORDER BY sort desc LIMIT 3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `news` WHERE ( hot=4 and typeid=9 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=0 ) ORDER BY sort desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=2 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `content` WHERE `type` = 1 AND `postion` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=6 ) ORDER BY sort desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=6 and hot=7 ) ORDER BY hit desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot =2 and typeid=9 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=3 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=1 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: newstypes F:\phpxiangmu\hzr\Application\Home\Controller\IndexController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: fid F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 294 行.
+NOTIC: [8] Undefined index: id F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 295 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T10:49:37+08:00 ] 127.0.0.1 /hzr/Public/phone/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T10:49:38+08:00 ] 127.0.0.1 /hzr/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `newstypes` WHERE ( state=1 ) ORDER BY sort desc LIMIT 7   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `content` WHERE `type` = 2 AND `postion` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `banner` WHERE `state` = 0 AND `postion` = 1 ORDER BY sort desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `news` WHERE ( hot=4 and typeid=9 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=0 ) ORDER BY sort desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=2 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `content` WHERE `type` = 1 AND `postion` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=6 ) ORDER BY sort desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=6 and hot=7 ) ORDER BY hit desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot =2 and typeid=9 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=3 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=1 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: newstypes F:\phpxiangmu\hzr\Application\Home\Controller\IndexController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: fid F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 294 行.
+NOTIC: [8] Undefined index: id F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 295 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T10:50:20+08:00 ] 127.0.0.1 /hzr/Public/phone/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T10:50:21+08:00 ] 127.0.0.1 /hzr/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `newstypes` WHERE ( state=1 ) ORDER BY sort desc LIMIT 7   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `content` WHERE `type` = 2 AND `postion` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `news` WHERE ( hot=4 and typeid=9 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=0 ) ORDER BY sort desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=2 and hot=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `content` WHERE `type` = 1 AND `postion` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=6 ) ORDER BY sort desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=6 and hot=7 ) ORDER BY hit desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot =2 and typeid=9 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=3 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=1 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: newstypes F:\phpxiangmu\hzr\Application\Home\Controller\IndexController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: fid F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 294 行.
+NOTIC: [8] Undefined index: id F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 295 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T10:50:30+08:00 ] 127.0.0.1 /hzr/Public/phone/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T10:50:31+08:00 ] 127.0.0.1 /hzr/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `newstypes` WHERE ( state=1 ) ORDER BY sort desc LIMIT 7   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `content` WHERE `type` = 2 AND `postion` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `news` WHERE ( hot=4 and typeid=9 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=0 ) ORDER BY sort desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=2 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `content` WHERE `type` = 1 AND `postion` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=6 ) ORDER BY sort desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=6 and hot=7 ) ORDER BY hit desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot =2 and typeid=9 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=3 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=1 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: newstypes F:\phpxiangmu\hzr\Application\Home\Controller\IndexController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: fid F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 294 行.
+NOTIC: [8] Undefined index: id F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 295 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T10:51:00+08:00 ] 127.0.0.1 /hzr/Public/phone/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T10:51:01+08:00 ] 127.0.0.1 /hzr/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `newstypes` WHERE ( state=1 ) ORDER BY sort desc LIMIT 7   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `content` WHERE `type` = 2 AND `postion` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `banner` WHERE `state` = 0 AND `postion` = 1 ORDER BY sort desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `news` WHERE ( hot=4 and typeid=9 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=0 ) ORDER BY sort desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=2 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `content` WHERE `type` = 1 AND `postion` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=6 ) ORDER BY sort desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=6 and hot=7 ) ORDER BY hit desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot =2 and typeid=9 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=3 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=1 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: newstypes F:\phpxiangmu\hzr\Application\Home\Controller\IndexController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: fid F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 294 行.
+NOTIC: [8] Undefined index: id F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 295 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T10:51:13+08:00 ] 127.0.0.1 /hzr/Public/phone/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-11-30T10:51:14+08:00 ] 127.0.0.1 /hzr/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `newstypes` WHERE ( state=1 ) ORDER BY sort desc LIMIT 7   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `content` WHERE `type` = 2 AND `postion` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `news` WHERE ( hot=4 and typeid=9 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=0 ) ORDER BY sort desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=2 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `content` WHERE `type` = 1 AND `postion` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=6 ) ORDER BY sort desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=6 and hot=7 ) ORDER BY hit desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot =2 and typeid=9 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=3 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=1 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: newstypes F:\phpxiangmu\hzr\Application\Home\Controller\IndexController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: fid F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 294 行.
+NOTIC: [8] Undefined index: id F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 295 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-30T10:51:16+08:00 ] 127.0.0.1 /hzr/Public/phone/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T10:51:17+08:00 ] 127.0.0.1 /hzr/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `newstypes` WHERE ( state=1 ) ORDER BY sort desc LIMIT 7   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `content` WHERE `type` = 2 AND `postion` = 2 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `news` WHERE ( hot=4 and typeid=9 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=0 ) ORDER BY sort desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=2 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `content` WHERE `type` = 1 AND `postion` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=6 ) ORDER BY sort desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=6 and hot=7 ) ORDER BY hit desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot =2 and typeid=9 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=3 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=1 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: newstypes F:\phpxiangmu\hzr\Application\Home\Controller\IndexController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: fid F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 294 行.
+NOTIC: [8] Undefined index: id F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 295 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T10:52:05+08:00 ] 127.0.0.1 /hzr/Public/phone/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T10:52:06+08:00 ] 127.0.0.1 /hzr/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `newstypes` WHERE ( state=1 ) ORDER BY sort desc LIMIT 7   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `content` WHERE `type` = 2 AND `postion` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `banner` WHERE `state` = 0 AND `postion` = 1 ORDER BY sort desc LIMIT 3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `news` WHERE ( hot=4 and typeid=9 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=0 ) ORDER BY sort desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=2 and hot=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `content` WHERE `type` = 1 AND `postion` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=6 ) ORDER BY sort desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=6 and hot=7 ) ORDER BY hit desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot =2 and typeid=9 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=3 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=1 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: newstypes F:\phpxiangmu\hzr\Application\Home\Controller\IndexController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: fid F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 294 行.
+NOTIC: [8] Undefined index: id F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 295 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T10:54:12+08:00 ] 127.0.0.1 /hzr/Public/phone/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T10:54:13+08:00 ] 127.0.0.1 /hzr/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `newstypes` WHERE ( state=1 ) ORDER BY sort desc LIMIT 7   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `content` WHERE `type` = 2 AND `postion` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `banner` WHERE `state` = 0 AND `postion` = 1 ORDER BY sort desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `news` WHERE ( hot=4 and typeid=9 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=0 ) ORDER BY sort desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=2 and hot=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `content` WHERE `type` = 1 AND `postion` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=6 ) ORDER BY sort desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=6 and hot=7 ) ORDER BY hit desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot =2 and typeid=9 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=3 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=1 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: newstypes F:\phpxiangmu\hzr\Application\Home\Controller\IndexController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: fid F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 294 行.
+NOTIC: [8] Undefined index: id F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 295 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T11:04:18+08:00 ] 127.0.0.1 /hzr/Public/phone/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T11:04:19+08:00 ] 127.0.0.1 /hzr/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `newstypes` WHERE ( state=1 ) ORDER BY sort desc LIMIT 7   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `content` WHERE `type` = 2 AND `postion` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `banner` WHERE `state` = 0 AND `postion` = 1 ORDER BY sort desc LIMIT 3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `news` WHERE ( hot=4 and typeid=9 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=0 ) ORDER BY sort desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=2 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `content` WHERE `type` = 1 AND `postion` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=6 ) ORDER BY sort desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=6 and hot=7 ) ORDER BY hit desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot =2 and typeid=9 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=3 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=1 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: newstypes F:\phpxiangmu\hzr\Application\Home\Controller\IndexController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: fid F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 294 行.
+NOTIC: [8] Undefined index: id F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 295 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.107006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.107006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-11-30T11:05:14+08:00 ] 127.0.0.1 /hzr/Public/phone/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T11:05:15+08:00 ] 127.0.0.1 /hzr/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `newstypes` WHERE ( state=1 ) ORDER BY sort desc LIMIT 7   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `content` WHERE `type` = 2 AND `postion` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `news` WHERE ( hot=4 and typeid=9 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=0 ) ORDER BY sort desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=2 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `content` WHERE `type` = 1 AND `postion` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=6 ) ORDER BY sort desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=6 and hot=7 ) ORDER BY hit desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot =2 and typeid=9 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=3 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=1 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: newstypes F:\phpxiangmu\hzr\Application\Home\Controller\IndexController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: fid F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 294 行.
+NOTIC: [8] Undefined index: id F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 295 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-30T11:05:16+08:00 ] 127.0.0.1 /hzr/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `newstypes` WHERE ( state=1 ) ORDER BY sort desc LIMIT 7   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `content` WHERE `type` = 2 AND `postion` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `news` WHERE ( hot=4 and typeid=9 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=0 ) ORDER BY sort desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=2 and hot=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `content` WHERE `type` = 1 AND `postion` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=6 ) ORDER BY sort desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=6 and hot=7 ) ORDER BY hit desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot =2 and typeid=9 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=3 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=1 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: newstypes F:\phpxiangmu\hzr\Application\Home\Controller\IndexController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: fid F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 294 行.
+NOTIC: [8] Undefined index: id F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 295 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.225013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.225013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-11-30T11:05:48+08:00 ] 127.0.0.1 /hzr/Public/phone/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-11-30T11:05:50+08:00 ] 127.0.0.1 /hzr/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `newstypes` WHERE ( state=1 ) ORDER BY sort desc LIMIT 7   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `content` WHERE `type` = 2 AND `postion` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `banner` WHERE `state` = 0 AND `postion` = 1 ORDER BY sort desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `news` WHERE ( hot=4 and typeid=9 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=0 ) ORDER BY sort desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=2 and hot=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `content` WHERE `type` = 1 AND `postion` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=6 ) ORDER BY sort desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=6 and hot=7 ) ORDER BY hit desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot =2 and typeid=9 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=3 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=1 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: newstypes F:\phpxiangmu\hzr\Application\Home\Controller\IndexController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: fid F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 294 行.
+NOTIC: [8] Undefined index: id F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 295 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T11:06:08+08:00 ] 127.0.0.1 /hzr/Public/phone/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-30T11:06:09+08:00 ] 127.0.0.1 /hzr/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `newstypes` WHERE ( state=1 ) ORDER BY sort desc LIMIT 7   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `content` WHERE `type` = 2 AND `postion` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `news` WHERE ( hot=4 and typeid=9 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=0 ) ORDER BY sort desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=2 and hot=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `content` WHERE `type` = 1 AND `postion` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=6 ) ORDER BY sort desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=6 and hot=7 ) ORDER BY hit desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot =2 and typeid=9 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=3 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=1 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: newstypes F:\phpxiangmu\hzr\Application\Home\Controller\IndexController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: fid F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 294 行.
+NOTIC: [8] Undefined index: id F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 295 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T11:06:48+08:00 ] 127.0.0.1 /hzr/Public/phone/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-11-30T11:06:50+08:00 ] 127.0.0.1 /hzr/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `newstypes` WHERE ( state=1 ) ORDER BY sort desc LIMIT 7   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `content` WHERE `type` = 2 AND `postion` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `news` WHERE ( hot=4 and typeid=9 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=0 ) ORDER BY sort desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=2 and hot=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `content` WHERE `type` = 1 AND `postion` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=6 ) ORDER BY sort desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=6 and hot=7 ) ORDER BY hit desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot =2 and typeid=9 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=3 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=1 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: newstypes F:\phpxiangmu\hzr\Application\Home\Controller\IndexController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: fid F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 294 行.
+NOTIC: [8] Undefined index: id F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 295 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T11:07:58+08:00 ] 127.0.0.1 /hzr/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `newstypes` WHERE ( state=1 ) ORDER BY sort desc LIMIT 7   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `content` WHERE `type` = 2 AND `postion` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `banner` WHERE `state` = 0 AND `postion` = 1 ORDER BY sort desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `news` WHERE ( hot=4 and typeid=9 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=0 ) ORDER BY sort desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=2 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `content` WHERE `type` = 1 AND `postion` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=6 ) ORDER BY sort desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=6 and hot=7 ) ORDER BY hit desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot =2 and typeid=9 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=3 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=1 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: newstypes F:\phpxiangmu\hzr\Application\Home\Controller\IndexController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: fid F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 294 行.
+NOTIC: [8] Undefined index: id F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 295 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T11:08:03+08:00 ] 127.0.0.1 /hzr/Public/css/images/icoCircle.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T11:08:19+08:00 ] 127.0.0.1 /hzr/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `newstypes` WHERE ( state=1 ) ORDER BY sort desc LIMIT 7   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `content` WHERE `type` = 2 AND `postion` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `news` WHERE ( hot=4 and typeid=9 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=0 ) ORDER BY sort desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=2 and hot=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `content` WHERE `type` = 1 AND `postion` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=6 ) ORDER BY sort desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=6 and hot=7 ) ORDER BY hit desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot =2 and typeid=9 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=3 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=1 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: newstypes F:\phpxiangmu\hzr\Application\Home\Controller\IndexController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: fid F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 294 行.
+NOTIC: [8] Undefined index: id F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 295 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-30T11:08:20+08:00 ] 127.0.0.1 /hzr/Public/css/images/icoCircle.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T11:09:40+08:00 ] 127.0.0.1 /hzr/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `newstypes` WHERE ( state=1 ) ORDER BY sort desc LIMIT 7   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `content` WHERE `type` = 2 AND `postion` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `banner` WHERE `state` = 0 AND `postion` = 1 ORDER BY sort desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `news` WHERE ( hot=4 and typeid=9 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=0 ) ORDER BY sort desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=2 and hot=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `content` WHERE `type` = 1 AND `postion` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=6 ) ORDER BY sort desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=6 and hot=7 ) ORDER BY hit desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot =2 and typeid=9 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=3 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=1 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: newstypes F:\phpxiangmu\hzr\Application\Home\Controller\IndexController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: fid F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 295 行.
+NOTIC: [8] Undefined index: id F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 296 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T11:09:41+08:00 ] 127.0.0.1 /hzr/Public/css/images/icoCircle.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T11:10:08+08:00 ] 127.0.0.1 /hzr/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `newstypes` WHERE ( state=1 ) ORDER BY sort desc LIMIT 7   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `content` WHERE `type` = 2 AND `postion` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0400s ]
+SQL: SELECT * FROM `news` WHERE ( hot=4 and typeid=9 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=0 ) ORDER BY sort desc LIMIT 5   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=2 and hot=1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `content` WHERE `type` = 1 AND `postion` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=6 ) ORDER BY sort desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=6 and hot=7 ) ORDER BY hit desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot =2 and typeid=9 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=3 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=1 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: newstypes F:\phpxiangmu\hzr\Application\Home\Controller\IndexController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: fid F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 295 行.
+NOTIC: [8] Undefined index: id F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 296 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T11:10:09+08:00 ] 127.0.0.1 /hzr/Public/css/images/icoCircle.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-30T11:10:26+08:00 ] 127.0.0.1 /hzr/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `newstypes` WHERE ( state=1 ) ORDER BY sort desc LIMIT 7   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `content` WHERE `type` = 2 AND `postion` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `news` WHERE ( hot=4 and typeid=9 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=0 ) ORDER BY sort desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=2 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `content` WHERE `type` = 1 AND `postion` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=6 ) ORDER BY sort desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=6 and hot=7 ) ORDER BY hit desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot =2 and typeid=9 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=3 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=1 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: newstypes F:\phpxiangmu\hzr\Application\Home\Controller\IndexController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: fid F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 295 行.
+NOTIC: [8] Undefined index: id F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 296 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T11:10:26+08:00 ] 127.0.0.1 /hzr/Public/css/images/icoCircle.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-30T11:11:01+08:00 ] 127.0.0.1 /hzr/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `newstypes` WHERE ( state=1 ) ORDER BY sort desc LIMIT 7   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `content` WHERE `type` = 2 AND `postion` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `banner` WHERE `state` = 0 AND `postion` = 1 ORDER BY sort desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `news` WHERE ( hot=4 and typeid=9 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=0 ) ORDER BY sort desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=2 and hot=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `content` WHERE `type` = 1 AND `postion` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=6 ) ORDER BY sort desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=6 and hot=7 ) ORDER BY hit desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot =2 and typeid=9 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=3 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=1 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: newstypes F:\phpxiangmu\hzr\Application\Home\Controller\IndexController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: fid F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 295 行.
+NOTIC: [8] Undefined index: id F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 296 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-11-30T11:11:01+08:00 ] 127.0.0.1 /hzr/Public/css/images/icoCircle.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-30T11:11:56+08:00 ] 127.0.0.1 /hzr/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0530s ]
+SQL: SELECT * FROM `newstypes` WHERE ( state=1 ) ORDER BY sort desc LIMIT 7   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `content` WHERE `type` = 2 AND `postion` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `news` WHERE ( hot=4 and typeid=9 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=0 ) ORDER BY sort desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=2 and hot=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `content` WHERE `type` = 1 AND `postion` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=6 ) ORDER BY sort desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=6 and hot=7 ) ORDER BY hit desc LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `news` WHERE ( hot =2 and typeid=9 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=3 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=1 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: newstypes F:\phpxiangmu\hzr\Application\Home\Controller\IndexController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: fid F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 295 行.
+NOTIC: [8] Undefined index: id F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 296 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-11-30T11:11:56+08:00 ] 127.0.0.1 /hzr/Public/css/images/icoCircle.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-30T11:12:46+08:00 ] 127.0.0.1 /hzr/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `newstypes` WHERE ( state=1 ) ORDER BY sort desc LIMIT 7   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `content` WHERE `type` = 2 AND `postion` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `banner` WHERE `state` = 0 AND `postion` = 1 ORDER BY sort desc LIMIT 3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `news` WHERE ( hot=4 and typeid=9 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=0 ) ORDER BY sort desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=2 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `content` WHERE `type` = 1 AND `postion` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=6 ) ORDER BY sort desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=6 and hot=7 ) ORDER BY hit desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot =2 and typeid=9 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=3 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=1 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: newstypes F:\phpxiangmu\hzr\Application\Home\Controller\IndexController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: fid F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 295 行.
+NOTIC: [8] Undefined index: id F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 296 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T11:12:47+08:00 ] 127.0.0.1 /hzr/Public/css/images/icoCircle.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T11:13:28+08:00 ] 127.0.0.1 /hzr/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `newstypes` WHERE ( state=1 ) ORDER BY sort desc LIMIT 7   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `content` WHERE `type` = 2 AND `postion` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `news` WHERE ( hot=4 and typeid=9 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=0 ) ORDER BY sort desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=2 and hot=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `content` WHERE `type` = 1 AND `postion` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=6 ) ORDER BY sort desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=6 and hot=7 ) ORDER BY hit desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot =2 and typeid=9 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=3 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=1 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: newstypes F:\phpxiangmu\hzr\Application\Home\Controller\IndexController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: fid F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 295 行.
+NOTIC: [8] Undefined index: id F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 296 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T11:13:28+08:00 ] 127.0.0.1 /hzr/Public/css/images/icoCircle.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-30T11:14:22+08:00 ] 127.0.0.1 /hzr/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `newstypes` WHERE ( state=1 ) ORDER BY sort desc LIMIT 7   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `content` WHERE `type` = 2 AND `postion` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `banner` WHERE `state` = 0 AND `postion` = 1 ORDER BY sort desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `news` WHERE ( hot=4 and typeid=9 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=0 ) ORDER BY sort desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=2 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `content` WHERE `type` = 1 AND `postion` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=6 ) ORDER BY sort desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=6 and hot=7 ) ORDER BY hit desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot =2 and typeid=9 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=3 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=1 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: newstypes F:\phpxiangmu\hzr\Application\Home\Controller\IndexController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: fid F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 296 行.
+NOTIC: [8] Undefined index: id F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 297 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T11:14:23+08:00 ] 127.0.0.1 /hzr/Public/css/images/icoCircle.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-30T11:16:22+08:00 ] 127.0.0.1 /hzr/Public/phone/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T11:16:24+08:00 ] 127.0.0.1 /hzr/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `newstypes` WHERE ( state=1 ) ORDER BY sort desc LIMIT 7   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `content` WHERE `type` = 2 AND `postion` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `banner` WHERE `state` = 0 AND `postion` = 1 ORDER BY sort desc LIMIT 3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `news` WHERE ( hot=4 and typeid=9 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=0 ) ORDER BY sort desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=2 and hot=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `content` WHERE `type` = 1 AND `postion` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=6 ) ORDER BY sort desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=6 and hot=7 ) ORDER BY hit desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot =2 and typeid=9 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=3 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=1 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: newstypes F:\phpxiangmu\hzr\Application\Home\Controller\IndexController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: fid F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 295 行.
+NOTIC: [8] Undefined index: id F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 296 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T11:16:48+08:00 ] 127.0.0.1 /hzr/Public/phone/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T11:16:49+08:00 ] 127.0.0.1 /hzr/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `newstypes` WHERE ( state=1 ) ORDER BY sort desc LIMIT 7   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `content` WHERE `type` = 2 AND `postion` = 2 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `news` WHERE ( hot=4 and typeid=9 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=0 ) ORDER BY sort desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=2 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `content` WHERE `type` = 1 AND `postion` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=6 ) ORDER BY sort desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=6 and hot=7 ) ORDER BY hit desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot =2 and typeid=9 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=3 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=1 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: newstypes F:\phpxiangmu\hzr\Application\Home\Controller\IndexController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: fid F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 295 行.
+NOTIC: [8] Undefined index: id F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 296 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T11:17:51+08:00 ] 127.0.0.1 /hzr/Public/phone/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T11:17:52+08:00 ] 127.0.0.1 /hzr/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `newstypes` WHERE ( state=1 ) ORDER BY sort desc LIMIT 7   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `content` WHERE `type` = 2 AND `postion` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `banner` WHERE `state` = 0 AND `postion` = 1 ORDER BY sort desc LIMIT 3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `news` WHERE ( hot=4 and typeid=9 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=0 ) ORDER BY sort desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=2 and hot=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `content` WHERE `type` = 1 AND `postion` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=6 ) ORDER BY sort desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=6 and hot=7 ) ORDER BY hit desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot =2 and typeid=9 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=3 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=1 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: newstypes F:\phpxiangmu\hzr\Application\Home\Controller\IndexController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: fid F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 295 行.
+NOTIC: [8] Undefined index: id F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 296 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T11:19:10+08:00 ] 127.0.0.1 /hzr/Public/phone/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T11:19:11+08:00 ] 127.0.0.1 /hzr/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `newstypes` WHERE ( state=1 ) ORDER BY sort desc LIMIT 7   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `content` WHERE `type` = 2 AND `postion` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `banner` WHERE `state` = 0 AND `postion` = 1 ORDER BY sort desc LIMIT 3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `news` WHERE ( hot=4 and typeid=9 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=0 ) ORDER BY sort desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=2 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `content` WHERE `type` = 1 AND `postion` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=6 ) ORDER BY sort desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=6 and hot=7 ) ORDER BY hit desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot =2 and typeid=9 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=3 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=1 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: newstypes F:\phpxiangmu\hzr\Application\Home\Controller\IndexController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: fid F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 295 行.
+NOTIC: [8] Undefined index: id F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 296 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-11-30T11:19:24+08:00 ] 127.0.0.1 /hzr/Public/phone/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T11:19:25+08:00 ] 127.0.0.1 /hzr/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `newstypes` WHERE ( state=1 ) ORDER BY sort desc LIMIT 7   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `content` WHERE `type` = 2 AND `postion` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `news` WHERE ( hot=4 and typeid=9 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=0 ) ORDER BY sort desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=2 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `content` WHERE `type` = 1 AND `postion` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=6 ) ORDER BY sort desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=6 and hot=7 ) ORDER BY hit desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot =2 and typeid=9 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=3 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=1 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: newstypes F:\phpxiangmu\hzr\Application\Home\Controller\IndexController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: fid F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 295 行.
+NOTIC: [8] Undefined index: id F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 296 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T11:19:45+08:00 ] 127.0.0.1 /hzr/Public/phone/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-11-30T11:19:47+08:00 ] 127.0.0.1 /hzr/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `newstypes` WHERE ( state=1 ) ORDER BY sort desc LIMIT 7   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `content` WHERE `type` = 2 AND `postion` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `news` WHERE ( hot=4 and typeid=9 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=0 ) ORDER BY sort desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=2 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `content` WHERE `type` = 1 AND `postion` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=6 ) ORDER BY sort desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=6 and hot=7 ) ORDER BY hit desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot =2 and typeid=9 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=3 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=1 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: newstypes F:\phpxiangmu\hzr\Application\Home\Controller\IndexController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: fid F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 295 行.
+NOTIC: [8] Undefined index: id F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 296 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-30T11:20:22+08:00 ] 127.0.0.1 /hzr/Public/phone/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T11:20:23+08:00 ] 127.0.0.1 /hzr/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `newstypes` WHERE ( state=1 ) ORDER BY sort desc LIMIT 7   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `content` WHERE `type` = 2 AND `postion` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `banner` WHERE `state` = 0 AND `postion` = 1 ORDER BY sort desc LIMIT 3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `news` WHERE ( hot=4 and typeid=9 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=0 ) ORDER BY sort desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=2 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `content` WHERE `type` = 1 AND `postion` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=6 ) ORDER BY sort desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=6 and hot=7 ) ORDER BY hit desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot =2 and typeid=9 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=3 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=1 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: newstypes F:\phpxiangmu\hzr\Application\Home\Controller\IndexController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: fid F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 295 行.
+NOTIC: [8] Undefined index: id F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 296 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T11:20:37+08:00 ] 127.0.0.1 /hzr/Public/phone/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T11:20:39+08:00 ] 127.0.0.1 /hzr/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `newstypes` WHERE ( state=1 ) ORDER BY sort desc LIMIT 7   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `content` WHERE `type` = 2 AND `postion` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `news` WHERE ( hot=4 and typeid=9 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=0 ) ORDER BY sort desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=2 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `content` WHERE `type` = 1 AND `postion` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=6 ) ORDER BY sort desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=6 and hot=7 ) ORDER BY hit desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot =2 and typeid=9 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=3 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=1 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: newstypes F:\phpxiangmu\hzr\Application\Home\Controller\IndexController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: fid F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 295 行.
+NOTIC: [8] Undefined index: id F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 296 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T11:37:28+08:00 ] 127.0.0.1 /hzr/Public/phone/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-11-30T11:37:29+08:00 ] 127.0.0.1 /hzr/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `newstypes` WHERE ( state=1 ) ORDER BY sort desc LIMIT 7   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `content` WHERE `type` = 2 AND `postion` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `banner` WHERE `state` = 0 AND `postion` = 1 ORDER BY sort desc LIMIT 3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `news` WHERE ( hot=4 and typeid=9 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=0 ) ORDER BY sort desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=2 and hot=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `content` WHERE `type` = 1 AND `postion` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=6 ) ORDER BY sort desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=6 and hot=7 ) ORDER BY hit desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot =2 and typeid=9 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=3 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=1 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: newstypes F:\phpxiangmu\hzr\Application\Home\Controller\IndexController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: fid F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 295 行.
+NOTIC: [8] Undefined index: id F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 296 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T11:38:00+08:00 ] 127.0.0.1 /hzr/Public/phone/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-11-30T11:38:01+08:00 ] 127.0.0.1 /hzr/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `newstypes` WHERE ( state=1 ) ORDER BY sort desc LIMIT 7   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `content` WHERE `type` = 2 AND `postion` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `news` WHERE ( hot=4 and typeid=9 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=0 ) ORDER BY sort desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=2 and hot=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `content` WHERE `type` = 1 AND `postion` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=6 ) ORDER BY sort desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=6 and hot=7 ) ORDER BY hit desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot =2 and typeid=9 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=3 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=1 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: newstypes F:\phpxiangmu\hzr\Application\Home\Controller\IndexController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: fid F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 295 行.
+NOTIC: [8] Undefined index: id F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 296 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-11-30T11:38:58+08:00 ] 127.0.0.1 /hzr/Public/phone/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T11:38:59+08:00 ] 127.0.0.1 /hzr/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `newstypes` WHERE ( state=1 ) ORDER BY sort desc LIMIT 7   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `content` WHERE `type` = 2 AND `postion` = 2 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `banner` WHERE `state` = 0 AND `postion` = 1 ORDER BY sort desc LIMIT 3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `news` WHERE ( hot=4 and typeid=9 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=0 ) ORDER BY sort desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=2 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `content` WHERE `type` = 1 AND `postion` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=6 ) ORDER BY sort desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=6 and hot=7 ) ORDER BY hit desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot =2 and typeid=9 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=3 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=1 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: newstypes F:\phpxiangmu\hzr\Application\Home\Controller\IndexController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: fid F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 295 行.
+NOTIC: [8] Undefined index: id F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 296 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T11:39:50+08:00 ] 127.0.0.1 /hzr/Public/phone/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T11:39:51+08:00 ] 127.0.0.1 /hzr/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `newstypes` WHERE ( state=1 ) ORDER BY sort desc LIMIT 7   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `content` WHERE `type` = 2 AND `postion` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `news` WHERE ( hot=4 and typeid=9 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=0 ) ORDER BY sort desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=2 and hot=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `content` WHERE `type` = 1 AND `postion` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=6 ) ORDER BY sort desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=6 and hot=7 ) ORDER BY hit desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot =2 and typeid=9 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=3 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=1 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: newstypes F:\phpxiangmu\hzr\Application\Home\Controller\IndexController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: fid F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 295 行.
+NOTIC: [8] Undefined index: id F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 296 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T11:40:06+08:00 ] 127.0.0.1 /hzr/Public/phone/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T11:40:07+08:00 ] 127.0.0.1 /hzr/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `newstypes` WHERE ( state=1 ) ORDER BY sort desc LIMIT 7   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `content` WHERE `type` = 2 AND `postion` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `banner` WHERE `state` = 0 AND `postion` = 1 ORDER BY sort desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `news` WHERE ( hot=4 and typeid=9 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=0 ) ORDER BY sort desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=2 and hot=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `content` WHERE `type` = 1 AND `postion` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=6 ) ORDER BY sort desc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=6 and hot=7 ) ORDER BY hit desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot =2 and typeid=9 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=3 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=1 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: newstypes F:\phpxiangmu\hzr\Application\Home\Controller\IndexController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: fid F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 295 行.
+NOTIC: [8] Undefined index: id F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 296 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T11:40:16+08:00 ] 127.0.0.1 /hzr/Public/phone/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T11:40:17+08:00 ] 127.0.0.1 /hzr/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `newstypes` WHERE ( state=1 ) ORDER BY sort desc LIMIT 7   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `content` WHERE `type` = 2 AND `postion` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `news` WHERE ( hot=4 and typeid=9 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=0 ) ORDER BY sort desc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=2 and hot=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `content` WHERE `type` = 1 AND `postion` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=6 ) ORDER BY sort desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=6 and hot=7 ) ORDER BY hit desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot =2 and typeid=9 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=3 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=1 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: newstypes F:\phpxiangmu\hzr\Application\Home\Controller\IndexController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: fid F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 295 行.
+NOTIC: [8] Undefined index: id F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 296 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-30T11:49:31+08:00 ] 127.0.0.1 /hzr/NewsList/index/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `newstypes` WHERE ( state=1 ) ORDER BY sort desc LIMIT 7   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `content` WHERE `type` = 2 AND `postion` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `typename` FROM `newstypes` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `news` WHERE `typeid` = 2 AND `hot` = 5 ORDER BY sort desc LIMIT 3   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE `typeid` = 2 AND `hot` = 0 ORDER BY sort desc LIMIT 7   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE `typeid` = 2 AND `hot` = 7 ORDER BY sort desc LIMIT 2   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: fid F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\b8562a1bfd57f20ab23c7323e8875de8.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-11-30T14:30:19+08:00 ] 127.0.0.1 /hzr/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.090005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018001s ]
+SQL: SHOW COLUMNS FROM `newstypes` [ RunTime:1.8871s ]
+SQL: SELECT * FROM `newstypes` WHERE ( state=1 ) ORDER BY sort desc LIMIT 7   [ RunTime:0.0560s ]
+SQL: SHOW COLUMNS FROM `config` [ RunTime:0.0640s ]
+SQL: SELECT * FROM `config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0670s ]
+SQL: SELECT * FROM `content` WHERE `type` = 2 AND `postion` = 2 LIMIT 1   [ RunTime:0.1180s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0810s ]
+SQL: SELECT * FROM `banner` WHERE `state` = 0 AND `postion` = 1 ORDER BY sort desc LIMIT 3   [ RunTime:0.0260s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0620s ]
+SQL: SELECT * FROM `news` WHERE ( hot=4 and typeid=9 ) LIMIT 1   [ RunTime:0.0330s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=18 and hot=0 ) ORDER BY sort desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=2 and hot=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `content` WHERE `type` = 1 AND `postion` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=6 ) ORDER BY sort desc LIMIT 4   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( typeid=6 and hot=7 ) ORDER BY hit desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot =2 and typeid=9 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=3 ) ORDER BY sort desc LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `news` WHERE ( hot=1 and typeid=1 ) ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: newstypes F:\phpxiangmu\hzr\Application\Home\Controller\IndexController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.079005s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.079005s ]
+NOTIC: [8] Undefined index: fid F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 295 行.
+NOTIC: [8] Undefined index: id F:\phpxiangmu\hzr\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 296 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.487028s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.487028s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.032002s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.032002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.028002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.028002s ]
+

@@ -1,0 +1,155 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=8">
+<title>{$conf.title}</title>
+<meta name="keywords" content="{$conf.keywords}">
+<meta name="description" content="{$conf.describle}">
+<link href="http://www.zzktz.com/statics/css/commom_2016.css" type="text/css" rel="stylesheet"/>
+<link href="http://www.zzktz.com/statics/css/hf_2016.css" type="text/css" rel="stylesheet"/>
+<link href="http://www.zzktz.com/statics/css/style_2016.css" type="text/css" rel="stylesheet"/>
+<script type="text/javascript" src="http://www.zzktz.com/statics/js/jquery1.42.min.js"></script>
+<script type="text/javascript" src="http://www.zzktz.com/statics/js/jquery.SuperSlide.2.1.js"></script>
+<script type="text/javascript">
+function setCookie(c_name,value,expiredays)
+{
+var exdate=new Date()
+exdate.setDate(exdate.getDate()+expiredays)
+document.cookie=c_name+ "=" +escape(value)+
+((expiredays==null) ? "" : ";expires="+exdate.toGMTString())+";path=/;domain=zzktz.com"; 
+}
+function getCookie(c_name)
+{
+if (document.cookie.length>0)
+  {
+  c_start=document.cookie.indexOf(c_name + "=")
+  if (c_start!=-1)
+    { 
+    c_start=c_start + c_name.length+1 
+    c_end=document.cookie.indexOf(";",c_start)
+    if (c_end==-1) c_end=document.cookie.length
+    return unescape(document.cookie.substring(c_start,c_end))
+    } 
+  }
+return ""
+}
+/*(function(W){
+    var site = getCookie('domain');
+    if(window.location.search.length&&window.location.search.indexOf("from=mobile")!=-1) return;
+    if(/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent.toLowerCase())){
+        if(site==''){
+            W.location.href = "http://m.zzktz.com/";
+        }else{
+          if(site!='www'){
+             window.location.href="http://"+site+".zzktz.com/";
+          } 
+         }
+    }
+})(window);*/
+</script>
+</head>
+<body>
+<div id="scrollpage">
+    <div class="section section1">
+        <div class="inner">
+            <div class="head">
+                <div class="logo fl"><a href="{:U('Index/index')}"><img src="__ROOT__/Uploads/{$conf.logo}" alt="" /></a></div>
+                <div class="headri fl"><img src="http://www.zzktz.com/statics/images/header_img1.gif" alt=""/></div>
+                <div class="head_ri fr">
+                    <div class="call"><img src="http://www.zzktz.com/statics/images/head_call.png" alt=""/></div>
+                    <div class="topNav">
+                        <div class="topNav-width clearfix">
+                            <dl class="tnRight">
+                                <dd>
+                                    <h3><a href="{:U('Index/index')}">首页</a></h3>
+                                </dd>
+                                  <volist name="header" id="vo" key="k">                                              
+                <dd id="dd{$k}">
+                  <h3>
+                  <if condition="$vo.id eq 2">
+                    <a href="{:U('Product/index')}"  >{$vo.typename}</a>
+                    <elseif condition="$vo.id eq 11"/>
+                      <a href="{:U('NewsList/index')}"  >{$vo.typename}</a>
+                       <elseif condition="$vo.id eq 1"/>
+                      <a href="{:U('Company/index')}"  >{$vo.typename}</a>
+                       <elseif condition="$vo.id eq 3"/>
+                      <a href="{:U('About/index')}"  >{$vo.typename}</a>
+                    <else/>
+                      <a href="http://www.zzktz.com/solution/list_1"  >{$vo.typename}</a>
+                  </if>
+                  </h3>
+                        <notempty name="vo.son">  
+                          <ul>                
+                             
+                                <li>
+                              <div class="tit"><a  href="http://www.zzktz.com/solution/list_5">{$vo.typename}</a></div>
+                              <div class="ct">
+                              <volist name="vo.son" id="vv">  
+                              <if condition="$vo.id eq 2">
+                               <a href="{:U('Product/index',array('id'=>$vv['id']))}">{$vv.typename}</a>
+                               <elseif condition="$vo.id eq 1"/>
+                                <a href="{:U('Company/index',array('id'=>$vv['id']))}">{$vv.typename}</a>
+                                <elseif condition="$vo.id eq 11"/>
+                                 <a href="{:U('NewsList/index',array('id'=>$vv['id']))}">{$vv.typename}</a>
+                               <else/>
+                                <a href="http://www.zzktz.com/solution/5_22">{$vv.typename}</a>
+                              </if>                     
+                                   
+                              </volist>                            
+                                </div>
+                                </li>  
+                          </ul>
+                           </notempty>     
+                  </dd>
+                </volist>                                 
+                               
+                                                                                                                                
+                            </dl><!-- tnLeft E -->              
+                        </div>
+                    </div>                          
+                    <script type="text/javascript">
+                        jQuery(".topNav").slide({ 
+                            type:"menu", //效果类型
+                            titCell:"dd", // 鼠标触发对象
+                            targetCell:"ul", // 效果对象，必须被titCell包含                           
+                            effect:"slideDown",//下拉效果
+                            delayTime:300, // 效果时间
+                            triggerTime:0, //鼠标延迟触发时间
+                            returnDefault:true  //返回默认状态
+                        });
+                    </script> 
+                </div>
+            </div>              
+            <div class="list_ban">
+                                <div class="list_ban1 ban_me"></div>
+                            </div>
+        </div>
+    </div>
+
+
+<include file="Public:right"/>
+<div class="section section_me">
+    <div class="me_ct"> 
+        <div class="me_le fl">
+               {$about.content|htmlspecialchars_decode}
+            <div style="height: 120px;"></div>
+        </div>
+        <div class="me_ri fr">
+          <volist name="result" id="vo">                   
+        <div class="me_ri5"><a href="{:U('Company/index',array('id'=>$vo['id']))}">&gt;&nbsp;{$vo.typename}</a></div>
+        <div class="showcase_ri6">
+            <ul>
+                  <volist name="vo.son" id="vv">                              
+                <li><a href="{:U('CompanyInfo/index',array('articleid'=>$vv['articleid']))}" title="{$vv.title}">{$vv.title}</a></li>
+                  </volist>                                            
+            </ul>
+        </div>
+      </volist>
+                     
+            <div style="height: 60px;"></div>
+        </div>          
+    </div>  
+</div>
+   <include file="Public:footer"/>

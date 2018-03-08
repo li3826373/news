@@ -1,0 +1,103 @@
+<include file="Public:header"/>
+  <!-- nav结束 -->
+  <!-- banner开始 -->
+  <div class="banner">
+    <img src="__ROOT__/Uploads/{$banner.imagename}">
+  </div>
+  <!-- banner结束 -->
+  <div class="container">
+    <!-- 关于我们 -->
+    <div class="tittle">
+      <h3>HAIZHIYUN<span> </span></h3>
+      <p>关于我们</p>
+    </div>
+    <div class="aboutUs-content">
+      <img src="__ROOT__/Uploads/{$aboutus.imagename}">
+      <h3 class="text-center">{$about.title}</h3>
+      <p>{$aboutus.content|htmlspecialchars_decode|strip_tags|mb_substr=0,100,'UTF-8'}</p>
+    </div>
+    <!-- 关于我们结束 -->
+    <!-- 教师开始 -->
+    <div class="tittle">
+      <h3>HAIZHIYUN<span> </span></h3>
+      <p>教师团队<a href="{:U('Teacher/index',array('id'=>6))}">MORE></a></p>
+    </div>
+    <div class="team-content">
+      <ul class="row container">
+       <volist name="teacher" id="vo">
+        <li class="col-xs-4"><img src="__ROOT__/Uploads/{$vo.imagename}" alt="" onclick="location.href='{:U('NewsInfo/index',array('articleid'=>$vo['articleid']))}'" style="cursor: pointer;"></li>
+        <li class="col-xs-4" onclick="location.href='{:U('NewsInfo/index',array('articleid'=>$vo['articleid']))}'" style="cursor: pointer;">
+          <h4>{$vo.title}</h4>
+          <p>{$vo.describle|htmlspecialchars_decode|strip_tags|mb_substr=0,27,'UTF-8'}..</p>
+        </li>
+       </volist>
+      </ul>
+    </div>
+    <!-- 教师结束 -->
+    <!-- 视频开始 -->
+    <div class="tittle">
+      <h3>HAIZHIYUN<span> </span></h3>
+      <p>精彩视频<a href="{:U('Coure/index',array('id'=>9))}">MORE></a></p>
+    </div>
+    <div class="shipin-contetn">
+      <ul class="row container">
+      <volist name="video" id="vo">
+        <li class="col-xs-4" onclick="location.href='{:U('NewsInfo/index',array('articleid'=>$vo['articleid']))}'" style="cursor: pointer;">
+          <div class="shipin-img">
+            <img src="__ROOT__/Uploads/{$vo.imagename}" alt="" >
+          </div>
+          <h5 class="text-center">{$vo.title}</h5>
+          <p class="text-center">{$vo.describle|htmlspecialchars_decode|strip_tags|mb_substr=0,20,'UTF-8'}..</p>
+        </li>
+      </volist>
+      </ul>
+    </div>
+    <!-- 视频结束 -->
+    <!-- 学院风采开始 -->
+    <div class="tittle">
+      <h3>HAIZHIYUN<span> </span></h3>
+      <p>学员风采<a href="{:U('Student/index',array('id'=>3))}">MORE></a></p>
+    </div>
+    <div class="sstyle">
+      <ul class="row container">
+      <volist name="student" id="vo">
+        <li class="col-xs-6" onclick="location.href='{:U('NewsInfo/index',array('articleid'=>$vo['articleid']))}'" style="cursor: pointer;">
+          <img src="__ROOT__/Uploads/{$vo.imagename}">
+          <h5>{$vo.title}</h5>
+          <p>{$vo.dateandtime|substr=0,10}</p>
+        </li>
+      </volist>
+      </ul>
+    </div>
+    <!-- 学院风彩结束 -->
+
+
+  </div>
+  <!-- 新闻开始 -->
+  <div class="new-wrap" style="padding: 0px 15px;">
+    <div class="tittle">
+      <h3>HAIZHIYUN<span> </span></h3>
+      <p>新闻动态<a href="{:U('NewsList/index',array('id'=>1))}">MORE></a></p>
+    </div>
+    <div class="news container">
+      <ul class="row container">
+      <volist name="news" id="vo">
+        <li class="row" onclick="location.href='{:U('NewsInfo/index',array('articleid'=>$vo['articleid']))}'" style="cursor: pointer;">
+          <div class="news-img col-xs-4">
+            <img src="__ROOT__/Uploads/{$vo.imagename}">
+          </div>
+          <div class="news-txt col-xs-8">
+            <h5>{$vo.title}</h5>
+            <p>{$vo.describle|htmlspecialchars_decode|strip_tags|mb_substr=0,29,'UTF-8'}..</p>
+          </div>
+        </li>
+        </volist>
+      </ul>
+    </div>
+  </div>
+  <!-- 新闻结束 -->
+</body>
+
+<script src="__PUBLIC__/phone/js/top.js"></script>
+
+</html>

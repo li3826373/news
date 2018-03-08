@@ -1,0 +1,35 @@
+.kecheng-tittle p {
+  color: #6f6f6f;
+  font-size: 18px;
+}
+
+.kecheng-tittle h4 {
+  margin-top: -8px;
+}
+
+.kecheng-top .top-img p {
+  font-size: 18px;
+  text-align: center;
+  line-height: 2;
+}
+
+.kecheng-top img {
+  width: 100%;
+}
+
+.top-txt ul {
+  list-style: none;
+}
+
+.top-txt ul li {
+  margin-top: 10px;
+}
+
+.kecheng-bottom ul {
+  list-style: none;
+  padding: 0
+}
+.kecheng-bottom img{
+  width: 100%;
+  height: 125px;
+}

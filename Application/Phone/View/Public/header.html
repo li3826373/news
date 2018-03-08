@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>首页</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="__PUBLIC__/phone/css/bootstrap.min.css">
+  <link rel="stylesheet" href="__PUBLIC__/phone/css/public.css">
+    <link rel="stylesheet" href="__PUBLIC__/phone/css/teache.css">
+    <link rel="stylesheet" href="__PUBLIC__/phone/css/kecheng.css">
+    <link rel="stylesheet" href="__PUBLIC__/phone/css/sstyle.css">
+    <link rel="stylesheet" href="__PUBLIC__/phone/css/about.css">
+      <link rel="stylesheet" href="__PUBLIC__/phone/css/relation.css">
+        <link rel="stylesheet" href="__PUBLIC__/phone/css/details.css">
+        <script src="__PUBLIC__/phone/js/jquery-3.1.1.min.js" charset="utf-8"></script>
+        <script type="text/javascript">
+      $(function(){
+       var fid="{$Think.get.fid}";
+       var id="{$Think.get.id}";
+       if(id!=""){
+         $(".news"+id).addClass("active").siblings().removeClass("active");
+       }else{
+        if(fid!=20){
+        $("#navbar li").eq(fid).addClass("active").siblings().removeClass("active");
+         }else{
+             $("#navbar li:last").addClass("active").siblings().removeClass("active");
+         }
+      }
+   });
+        </script>
+</head>
+
+<body>
+  <!-- nav开始 -->
+  <nav class="navbar navbar-default  clear">
+    <div class="container">
+      <div class="navbar-header clear">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#" style="width: 70%;"><img src="__ROOT__/Uploads/{$conf.logo}" style="width: 100%"></a>
+      </div>
+      <div id="navbar" class="navbar-collapse" style="height:380px;">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="{:U('Index/index',array('fid'=>0))}">首页</a></li>
+          <li><a href="{:U('About/index',array('fid'=>1))}">关于我们</a></li>
+          <foreach name="header" item="vo">
+        <if condition="$vo.id eq 6">
+          <li class="news{$vo.id}"><a href="{:U('Teacher/index',array('id'=>$vo['id']))}">{$vo.typename}</a></li>
+         <elseif condition="$vo.id eq 9"/>
+          <li class="news{$vo.id}"><a href="{:U('Coure/index',array('id'=>$vo['id']))}">{$vo.typename}</a></li>
+           <elseif condition="$vo.id eq 10"/>
+          <li class="news{$vo.id}"><a href="{:U('Coure/index',array('id'=>$vo['id']))}">{$vo.typename}</a></li>
+          <elseif condition="$vo.id eq 3"/>
+          <li class="news{$vo.id}"><a href="{:U('Student/index',array('id'=>$vo['id']))}">{$vo.typename}</a></li>
+           <elseif condition="$vo.id eq 2"/>
+          <li class="news{$vo.id}"><a href="{:U('Student/index',array('id'=>$vo['id']))}">{$vo.typename}</a></li>
+          <else/>
+          <li class="news{$vo.id}"><a href="{:U('NewsList/index',array('id'=>$vo['id']))}">{$vo.typename}</a></li>
+          </if>
+          </foreach>
+          <li><a href="{:U('Concat/index',array('fid'=>20))}">联系我们</a></li>
+        </ul>
+      </div>
+      <!--nav结束 -->
+    </div>
+    <br clear='both'>
+  </nav>

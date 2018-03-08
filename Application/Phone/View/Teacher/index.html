@@ -1,0 +1,64 @@
+<include file="Public:header"/>
+  <!-- nav结束 -->
+  <div class="dizhi  container">
+    <div class="row">
+      <div class="dizhi-con container">
+        <span>海之韵</span>><span>{$newstype.typename}</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- contetn开始 -->
+  <div class="container teach-content" id="add">
+   <!--  <div class="teach-tittle container">
+     <p>海之韵·<span>音乐教师团队</span></p>
+   </div> -->
+   <volist name="teacher" id="vo">
+    <div class="row" onclick="location.href='{:U('NewsInfo/index',array('articleid'=>$vo['articleid']))}'">
+      <div class="teach-img col-xs-4">
+        <img src="__ROOT__/Uploads/{$vo.imagename}">
+      </div>
+      <div class="teach-txt col-xs-8">
+        <h4>{$vo.title}</h4>
+        <h3>{$vo.teacher}</h3>
+        <p>{$vo.describle|htmlspecialchars_decode|strip_tags|mb_substr=0,20,'UTF-8'}...</p>
+      </div>
+    </div>
+   </volist>
+  
+   <!--  <div class="teach-tittle container">
+     <p>海之韵·<span>舞蹈教师团队</span></p>
+   </div> -->
+   
+    
+  </div>
+   <p style="text-align: center;" onclick="check({$id},$(this),a=1)" id="1" class="adding">更多...</p>
+  <!-- contetn结束 -->
+  <script src="__PUBLIC__/phone/js/jquery-3.1.1.min.js" charset="utf-8"></script>
+  <script src="__PUBLIC__/phone/js/top.js" charset="utf-8"></script>
+</body>
+
+</html>
+<script type="text/javascript">
+  function check(id,obj,a){
+       var pid=obj.attr("id");
+      $.ajax({
+          "url":"{:U('Teacher/more')}",
+          "type":"get",
+          "dataType":"html",
+          "data":{"id":id,"pid":pid},
+          "error":function(){},
+          "success":function(re){
+            if(re!=""){
+              $("#add").append(re);
+              obj.attr("id",parseInt(pid)+1);
+            }else{
+              $(".adding").html("<font color='red'>没有更多了</font>...");
+              $(".adding").unbind();
+            }
+          }
+     });
+}
+
+
+</script>

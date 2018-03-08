@@ -1,0 +1,58 @@
+<div class="side" style="top: 100px;">
+        <div class="sideMenu" style="margin:0 auto">
+        
+        <?php if(in_array(0,$_SESSION['state']) || $_SESSION['state'][0]==""){?>
+          <h3 class="open"> 新闻管理</h3>
+          <ul>
+          <li><a href="<?php echo U('News/type') ?>" target="right">新闻分类</a></li>
+            <li><a href="<?php echo U('News/index') ?>" target="right">新闻管理</a></li>
+              <!--  <li><a href="<?php echo U('News/vedio') ?>" target="right">视频上传</a></li>  --> 
+          </ul>
+          <?php  }?>
+
+           <?php if(in_array(1,$_SESSION['state']) || $_SESSION['state'][0]==""){?>
+          <h3 class="open"> 报名管理</h3>
+          <ul>
+            <li><a href="<?php echo U('Bao/index') ?>" target="right">报名列表</a></li>
+          
+          </ul>
+           <?php  }?>
+          
+         
+          <h3 class="open">其他管理</h3>
+          <ul>
+            <li><a href="<?php  echo U('Content/index') ?>" target="right">单页面</a></li>
+            <li><a href="<?php echo U('Banner/index') ?>" target="right">轮播广告</a></li>
+             <li><a href="{:U('Friend/index')}" target="right">友情链接</a></li>
+          
+          
+          </ul>
+         
+
+          <?php if(in_array(3,$_SESSION['state']) || $_SESSION['state'][0]==""){?>
+          <h3 class="open"> 系统设置</h3>
+          <ul>
+            <li><a href="<?php echo U('Index/config') ?>" target="right">系统配置</a></li>        
+            <li><a href="<?php echo U('AdminUser/adminuser')?>" target="right">管理员</a></li>
+            
+          </ul>
+        <?php }?>
+         <?php if(in_array(4,$_SESSION['state']) || $_SESSION['state'][0]==""){?>
+         <h3 class="open">移动端新闻管理</h3>
+          <ul>
+          <li><a href="<?php echo U('PhoneNews/type') ?>" target="right">新闻分类</a></li>
+            <li><a href="<?php echo U('PhoneNews/index') ?>" target="right">新闻管理</a></li>
+               <!-- <li><a href="<?php echo U('PhoneNews/vedio') ?>" target="right">视频上传</a></li>   -->
+          </ul>
+          <?php }?>
+          <?php if(in_array(5,$_SESSION['state']) || $_SESSION['state'][0]==""){?>
+           <h3 class="open">移动端其他管理</h3>
+          <ul>
+            <li><a href="<?php  echo U('PhoneContent/index') ?>" target="right">单页面</a></li>
+            <li><a href="<?php echo U('PhoneBanner/index') ?>" target="right">轮播广告</a></li>
+           
+          
+          </ul>
+           <?php }?>
+       </div>
+    </div>
